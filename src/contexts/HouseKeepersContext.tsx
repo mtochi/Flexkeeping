@@ -46,6 +46,9 @@ function houseKeepersReducer(houseKeepers: any, action: { type: string; id: any;
         return houseKeepers;
       }
       }
+      case 'REMOVE_ALL_HOUSEKEEPERS': {
+        return [];
+      }
       default: {
         throw Error('Unknown action: ' + action.type);
       }

@@ -1,3 +1,5 @@
+import Box from '@mui/material/Box';
+import Grid from '@mui/material/Grid';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import dayjs, { Dayjs } from 'dayjs';
 import { useDatesDispatch } from '../contexts/DateContext';
@@ -13,28 +15,50 @@ export const Cleanups = () => {
   console.log(dates)
 
   return (
-    <div>
-        <DatePicker 
-        minDate={dayjs('2023-04-01')} 
-        maxDate={dayjs('2023-04-07')}
-        onChange={(e) => {dispatch({
-          type: 'SET_START_DATE',
-          date: e,
-      });}}/>
+    <Box sx={{ width: '100%' }}>
+    <Grid container rowSpacing={3} columnSpacing={0} sx={{marginTop: 3}}>
+      <Grid item xs={6}>
+        <DatePicker
+          minDate={dayjs('2023-04-01')}
+          maxDate={dayjs('2023-04-07')}
+          onChange={(e) => {
+            dispatch({
+              type: 'SET_START_DATE',
+              date: e,
+            });
+          }} />
+      </Grid>
+      <Grid item xs={6}>
 
-<DatePicker 
-minDate={dayjs('2023-04-01')} 
-maxDate={dayjs('2023-04-07')}
-        onChange={(e) => {dispatch({
-          type: 'SET_END_DATE',
-          date: e,
-      });}}/>
-        <HouseKeepers/>
-        <Spaces/>
-        <DoughnutChart/>
-        <BarChart/>
-    </div>
-        
+        <DatePicker
+          minDate={dayjs('2023-04-01')}
+          maxDate={dayjs('2023-04-07')}
+          onChange={(e) => {
+            dispatch({
+              type: 'SET_END_DATE',
+              date: e,
+            });
+          }} />
+      </Grid>
+
+      <Grid item xs={2}>
+      <Box sx={{ height: '250px', overflowY: 'scroll' }}>
+            <HouseKeepers />
+          </Box>
+      </Grid>
+      <Grid item xs={4}>
+        <DoughnutChart />
+      </Grid>
+      <Grid item xs={4}>
+        <BarChart />
+      </Grid>
+      <Grid item xs={2}>
+      <Box sx={{ height: '200px', overflowY: 'scroll' }}>
+            <Spaces />
+          </Box>
+      </Grid>
+    </Grid>
+    </Box>
   );
 }
 

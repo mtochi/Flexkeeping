@@ -44,6 +44,9 @@ function spacesReducer(spaces: any, action: { type: string; id: any; title: any;
         return spaces;
       }
       }
+      case 'REMOVE_ALL_SPACES': {
+        return [];
+      }
       default: {
         throw Error('Unknown action: ' + action.type);
       }
