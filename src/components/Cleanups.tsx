@@ -14,7 +14,7 @@ export const Cleanups = () => {
   const dispatch = useDatesDispatch();
   const dates = useDates();
   console.log(dates)
-  const isMobile = useMediaQuery('(max-width:600px)');
+  const isMobile = useMediaQuery('(max-width:420px)');
 
   return (
     <Box sx={{ width: '100%' }}>
