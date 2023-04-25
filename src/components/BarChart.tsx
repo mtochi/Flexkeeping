@@ -1,7 +1,4 @@
-import React from 'react';
 import { Bar } from "react-chartjs-2";
-import spaces from '../data/spaces.json';
-import cleanups from '../data/cleanups.json';
 import { useSpaces } from '../contexts/SpacesContext';
 import { useDates } from '../contexts/DateContext';
 import { getTotalTimePerSpace } from '../services/cleanups.service';
@@ -22,6 +19,7 @@ export const BarChart = () => {
                 data={chartData}
                 options={
                     {
+                    aspectRatio: 0.90,
                     plugins: {
                         title: {
                             display: true,
@@ -35,7 +33,8 @@ export const BarChart = () => {
                     y: {
                         stacked: true
                     }
-                    }
+                    },
+                    
                 }}
             />
             </div>

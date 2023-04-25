@@ -40,8 +40,8 @@ export const Spaces = () => {
         <div>
             <Box sx={{position: 'sticky', top: 0, backgroundColor: 'white'}}>
             <h2 style={{ textAlign: "center" }}>Spaces</h2>
-            <input type="checkbox" value={"Select all housekeepers"} checked={selectAll} onChange={(e) => handleSelectAll(e)}/>
-            <label>Select all spaces</label><br></br>
+            <input type="checkbox" value={"Select all"} checked={selectAll} onChange={(e) => handleSelectAll(e)}/>
+            <label>Select all</label><br></br>
             <input type="text" placeholder="Search spaces" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
 
             </Box>

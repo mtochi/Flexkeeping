@@ -6,9 +6,11 @@ import dayjs from 'dayjs';
 import { useDatesDispatch } from '../contexts/DateContext';
 import { useDates } from '../contexts/DateContext';
 import { BarChart } from './BarChart';
+import { DoughnutChart2 } from './DoughnutChart2';
 import { DoughnutChart } from './DoughnutChart';
 import { HouseKeepers } from './HouseKeepers';
 import { Spaces } from './Spaces';
+import {TmpCharts} from './BarChart2';
 
 export const Cleanups = () => {
   const dispatch = useDatesDispatch();
@@ -18,6 +20,7 @@ export const Cleanups = () => {
 
   return (
     <Box sx={{ width: '100%' }}>
+      
       <Grid container rowSpacing={3} columnSpacing={0} sx={{ marginTop: 3 }}>
         <Grid item md={6} xs={12}>
           <DatePicker
@@ -59,10 +62,10 @@ export const Cleanups = () => {
                 </Box>
               </Grid>
               <Grid item xs={12} md={4}>
-                <DoughnutChart />
+                <DoughnutChart2 />
               </Grid>
               <Grid item xs={12} md={4}>
-                <BarChart />
+              <TmpCharts/>
               </Grid>
              
             </Grid>
@@ -75,10 +78,10 @@ export const Cleanups = () => {
         </Grid>
             
             <Grid item xs={12} md={4}>
-              <DoughnutChart />
+            <DoughnutChart2 />
             </Grid>
             <Grid item xs={12} md={4}>
-              <BarChart />
+            <TmpCharts/>
             </Grid>
             <Grid item xs={12} md={2}>
               <Box sx={{ height: '200px', overflowY: 'scroll' }}>

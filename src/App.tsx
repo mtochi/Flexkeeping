@@ -7,7 +7,6 @@ import { CategoryScale } from "chart.js";
 import { LocalizationProvider } from '@mui/x-date-pickers';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
 import { DatesProvider } from './contexts/DateContext';
-
 Chart.register(CategoryScale);
 
 function App() {

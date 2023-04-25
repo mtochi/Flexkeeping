@@ -42,7 +42,7 @@ export const HouseKeepers = () => {
             <Box sx={{position: 'sticky', top: '0', backgroundColor: 'white'}}>
                 <h2 style={{ textAlign: "center" }}>Housekeepers</h2>
                 <input type="checkbox" value={"Select all housekeepers"} checked={selectAll} onChange={(e) => handleSelectAll(e)}/>
-                <label>Select all housekeepers</label><br></br>
+                <label>Select all</label><br></br>
                 <input type="text" placeholder="Search spaces" value={searchTerm}  onChange={(e) => setSearchTerm(e.target.value)} />
     
             </Box>
