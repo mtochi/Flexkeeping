@@ -1,44 +1,50 @@
-import { Bar } from "react-chartjs-2";
-import { useSpaces } from '../contexts/SpacesContext';
-import { useDates } from '../contexts/DateContext';
-import { getTotalTimePerSpace } from '../services/cleanups.service';
+import {
+  BarChart,
+  Bar,
+  Brush,
+  ReferenceLine,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend
+} from "recharts";
+import { useDates } from "../contexts/DateContext";
+import { useSpaces } from "../contexts/SpacesContext";
+import { getTotalTimePerSpace } from "../services/cleanups.service";
 
 
-export const BarChart = () => {
-    
-    const spacesListSelected = useSpaces();
+export const BarChartComponent = () => {
+    const cleanups = useSpaces();
     const dates = useDates();
-    const chartData = getTotalTimePerSpace(spacesListSelected, dates);
 
-    return (
-        <div className="chart-container">
-            <h2 style={{ textAlign: "center" }}>Bar Chart</h2>
-            <div className="chartWrapper" style={{width:"100%", overflowX: "scroll"}}>
-            
-            <Bar
-                data={chartData}
-                options={
-                    {
-                    aspectRatio: 0.90,
-                    plugins: {
-                        title: {
-                            display: true,
-                            text: "Total Time per Space Statuses"
-                        }
-                    },
-                    scales: {
-                    x: {
-                        stacked: true,
-                    },
-                    y: {
-                        stacked: true
-                    }
-                    },
-                    
-                }}
-            />
-            </div>
-        </div>
-    );
-};
+    const data = getTotalTimePerSpace(cleanups, dates);
+  return (<div className="tmpClass barChartClass">
 
+
+    <BarChart
+      // <text>Total Time per Space Statuses</text>
+      width={400}
+      height={450}
+      data={data}
+      margin={{
+        // top: 5,
+        // right: 30,
+        // left: 20,
+        // bottom: 5
+      }}
+    >
+      <CartesianGrid strokeDasharray="3 3" />
+      <XAxis dataKey="title" />
+      <YAxis />
+      <Tooltip />
+      <Legend verticalAlign="top" wrapperStyle={{ lineHeight: "40px" }} height={50} align="center" />
+      <ReferenceLine y={0} stroke="#000" />
+      <Brush dataKey="title" height={30} stroke="#8884d8" />
+      <Bar dataKey="stayOver" stackId="a" fill="#8884d8" />
+      <Bar dataKey="departure" stackId="a" fill="#82ca9d" />
+      <Bar dataKey="empty" stackId="a" fill="#82ca23" />
+    </BarChart>
+    </div>
+  );
+}

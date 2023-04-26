@@ -2,14 +2,16 @@ import './App.css';
 import { Cleanups } from './components/Cleanups';
 import { HouseKeepersProvider} from './contexts/HouseKeepersContext';
 import { SpacesProvider } from './contexts/SpacesContext';
-import Chart from "chart.js/auto";
-import { CategoryScale } from "chart.js";
 import { LocalizationProvider } from '@mui/x-date-pickers';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
 import { DatesProvider } from './contexts/DateContext';
-Chart.register(CategoryScale);
+import { ScrollableListContainer } from './components/ScrollableListContainer';
+import { getAllMaids } from './services/data.service';
 
 function App() {
+  console.log("getAllMaids");
+  let maids = getAllMaids().then((data) => console.log(data));
+  console.log(maids)
   return (
     <div className="App">
           <LocalizationProvider dateAdapter={AdapterDayjs}>
@@ -17,6 +19,7 @@ function App() {
         <SpacesProvider>
         <DatesProvider>
           <Cleanups/>
+          <ScrollableListContainer/>
           </DatesProvider>
         </SpacesProvider>
       </HouseKeepersProvider>

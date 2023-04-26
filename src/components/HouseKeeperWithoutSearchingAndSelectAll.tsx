@@ -1,14 +1,21 @@
 import { Checkbox, FormControlLabel, TextField } from '@mui/material';
 import Box from '@mui/material/Box';
-import { ChangeEvent, useEffect, useState } from 'react';
+import { ChangeEvent, useState } from 'react';
 import { useHouseKeepers, useHouseKeepersDispatch } from '../contexts/HouseKeepersContext';
-import { getAllMaids } from '../services/data.service';
+import maids from '../data/maids.json';
 import './styles.css';
 
+const commonStyles = {
+    bgcolor: 'background.paper',
+    borderColor: 'text.primary',
+    m: 1,
+    border: 1,
+    width: '11rem',
+    height: '20rem'
+  };
+  
 export const HouseKeepers = () => {
-    const [maidsList, setMaidsList] = useState<{id: number, name: string}[]>([]);
-let maids = getAllMaids().then((data) => {return data;});
-  console.log(maids)
+    const maidsList = maids;
     const houseKeepers = useHouseKeepers();
     const dispatch = useHouseKeepersDispatch();
     const [selectAll, setSelectAll] = useState(Boolean);
@@ -39,11 +46,7 @@ let maids = getAllMaids().then((data) => {return data;});
         console.log(maid.name.includes(searchTerm))
         return maid.name.toLowerCase().includes(searchTerm.toLowerCase());
     });
-    useEffect(() => {
-        getAllMaids().then((data) => {
-          setMaidsList(data);
-        });
-      }, []);
+
 
     return (
         <Box className="tmpClass" >

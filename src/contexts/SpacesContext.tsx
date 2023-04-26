@@ -27,20 +27,22 @@ function spacesReducer(spaces: any, action: { type: string; id: any; title: any;
         console.log("cleanups: ", spaces);
         const existingIndex = spaces.findIndex((h: { id: any; }) => h.id === action.id);
         if (existingIndex !== -1) {
+          // Space exists in the array => don't add it
           return spaces;
         } else {
+          // Space doesn't exist in the array => add it
           return [...spaces, { id: action.id, title: action.title }];
         }
       }
       case 'REMOVE_SPACES': {
         const indexToRemove = spaces.findIndex((h: { id: any; }) => h.id === action.id);
       if (indexToRemove !== -1) {
-        // Housekeeper exists in the array, remove it
+        // Space exists in the array => remove it
         const newCleanups = [...spaces];
         newCleanups.splice(indexToRemove, 1);
         return newCleanups;
       } else {
-        // Housekeeper doesn't exist in the array, do nothing
+        // Space doesn't exist in the array => do nothing
         return spaces;
       }
       }

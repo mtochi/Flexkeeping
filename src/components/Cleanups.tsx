@@ -5,25 +5,34 @@ import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import dayjs from 'dayjs';
 import { useDatesDispatch } from '../contexts/DateContext';
 import { useDates } from '../contexts/DateContext';
-import { BarChart } from './BarChart';
-import { DoughnutChart2 } from './DoughnutChart2';
+import { BarChartComponent } from './BarChart';
 import { DoughnutChart } from './DoughnutChart';
 import { HouseKeepers } from './HouseKeepers';
 import { Spaces } from './Spaces';
-import {TmpCharts} from './BarChart2';
+
 
 export const Cleanups = () => {
   const dispatch = useDatesDispatch();
   const dates = useDates();
-  console.log(dates)
   const isMobile = useMediaQuery('(max-width:420px)');
 
   return (
-    <Box sx={{ width: '100%' }}>
-      
-      <Grid container rowSpacing={3} columnSpacing={0} sx={{ marginTop: 3 }}>
+    //These rules can be deleted
+    <Box className="mainContainer" sx={{ paddingTop: '3rem', width: '100%', height: isMobile ? '100%':'100vh'}}>  
+
+      <Grid container rowSpacing={4} columnSpacing={3} sx={{ alignItems: 'flex-start' }}>
+
+        
         <Grid item md={6} xs={12}>
+        
+        <Box
+  display="flex"
+  justifyContent="right"
+>
+
+
           <DatePicker
+          label="Date From" 
             minDate={dayjs('2023-04-01')}
             maxDate={dayjs('2023-04-07')}
             onChange={(e) => {
@@ -32,10 +41,16 @@ export const Cleanups = () => {
                 date: e,
               });
             }} />
+            </Box>
         </Grid>
-        <Grid item md={6} xs={12}>
 
+        <Grid item md={6} xs={12}>
+        <Box
+  display="flex"
+  justifyContent="left"
+>
           <DatePicker
+          label="Date To" 
             minDate={dayjs('2023-04-01')}
             maxDate={dayjs('2023-04-07')}
             onChange={(e) => {
@@ -44,15 +59,16 @@ export const Cleanups = () => {
                 date: e,
               });
             }} />
+            </Box>
         </Grid>
-
+            </Grid>
         {
           isMobile ? (
 
 
             <Grid container rowSpacing={3} columnSpacing={0}>
                <Grid item xs={12} md={2}>
-          <Box sx={{ height: '250px', overflowY: 'scroll' }}>
+          <Box sx={{ height: '200px', overflowY: 'scroll'}}>
             <HouseKeepers />
           </Box>
         </Grid>
@@ -62,35 +78,40 @@ export const Cleanups = () => {
                 </Box>
               </Grid>
               <Grid item xs={12} md={4}>
-                <DoughnutChart2 />
+                <DoughnutChart />
               </Grid>
               <Grid item xs={12} md={4}>
-              <TmpCharts/>
+              <BarChartComponent/>
               </Grid>
              
             </Grid>
           ) : (
-            <Grid container rowSpacing={3} columnSpacing={0}>
+
+            <Grid container rowSpacing={3} columnSpacing={3} sx={{paddingTop: '3rem'}}>
                       <Grid item xs={12} md={2}>
-          <Box sx={{ height: '250px', overflowY: 'scroll' }}>
+          <Box sx={{ height: '500px', overflowY: 'scroll' }}>
             <HouseKeepers />
           </Box>
         </Grid>
             
             <Grid item xs={12} md={4}>
-            <DoughnutChart2 />
+              <Box sx={{height: '500px',}}>
+              <DoughnutChart />
+              </Box>
+              
             </Grid>
             <Grid item xs={12} md={4}>
-            <TmpCharts/>
+            <Box sx={{height: '500px',}}>
+            <BarChartComponent/>
+            </Box>
             </Grid>
             <Grid item xs={12} md={2}>
-              <Box sx={{ height: '200px', overflowY: 'scroll' }}>
+              <Box sx={{ height: '500px', overflowY: 'scroll' }}>
                 <Spaces />
               </Box>
             </Grid>
             </Grid>)
         }
-      </Grid>
     </Box>
   );
 }

@@ -1,39 +1,41 @@
-import { Doughnut } from "react-chartjs-2";
+import { PieChart, Pie, Cell, Legend, Tooltip } from "recharts";
 import { useDates } from "../contexts/DateContext";
-import { useHouseKeepers } from '../contexts/HouseKeepersContext';
+import { useHouseKeepers } from "../contexts/HouseKeepersContext";
 import { getTotalNumberOfCredits } from "../services/cleanups.service";
+
+const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042", "#FF8095"];
 
 export const DoughnutChart = () => {
     const houseKeepers = useHouseKeepers();
     const dates = useDates();
 
     const maidCreditsList = getTotalNumberOfCredits(houseKeepers, dates);
-    const chartData = {
-        labels: maidCreditsList.map(maid => maid.name),
-        datasets: [{
-          data: maidCreditsList.map(maid => maid.credits),
-        }]
-      };
+  return (
+    <div className="tmpClass">
 
-    return (
-        <div className="chart-container">
-            <h2 style={{ textAlign: "center" }}>Doughnut Chart</h2>
-            <Doughnut
-                data={chartData}
-                options={{
-                    plugins: {
-                        title: {
-                            display: true,
-                            text: "Credit Count Per Housekeeper"
-                        },
-                        colors: {
-                            forceOverride: true
-                        }
-                    }
-                    
-                }}
-            />
-        </div>
-    );
-};
+    <PieChart width={400} height={450}>
 
+    <Legend wrapperStyle={{ lineHeight: "40px" }} verticalAlign="top" />
+    {/* <text x={500 / 2} y={20} fill="black" textAnchor="middle" dominantBaseline="central">
+            <tspan fontSize="24">Credit Count Per Housekeeper</tspan>
+        </text> */}
+      <Pie
+        data={maidCreditsList}
+        cx={200}
+        cy={200}
+        innerRadius={70}
+        outerRadius={120}
+        fill="#8884d8"
+        paddingAngle={5}
+        dataKey="credits"
+        label
+      >
+        {maidCreditsList.map((entry, index) => (
+          <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+        ))}
+      </Pie>
+      <Tooltip />
+    </PieChart>
+    </div>
+  );
+}

@@ -1,24 +1,25 @@
+import { TextField } from '@mui/material';
 import Box from '@mui/material/Box';
-import { ChangeEvent, useState } from 'react';
+import Checkbox from '@mui/material/Checkbox';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import { ChangeEvent, useEffect, useState } from 'react';
 import { useSpaces, useSpacesDispatch } from '../contexts/SpacesContext';
-import spaces from '../data/spaces.json';
+import { getAllSpaces } from '../services/data.service';
 
 export const Spaces = () => {
-    const spacesList = spaces;
-    const cleanups = useSpaces();
-    const dispatch = useSpacesDispatch();
+    const [spacesList, setSpacesList] = useState<{id: number, title: string}[]>([]);
     const [selectAll, setSellectAll] = useState(Boolean);
     const [searchTerm, setSearchTerm] = useState("");
-
+    const cleanups = useSpaces();
+    const dispatch = useSpacesDispatch();
     const filteredSpaces = spacesList.filter(space => {
         return space.title.toString().includes(searchTerm.toLowerCase());
-      });
-    console.log(cleanups)
-
-    const handleSelectAll = (event: ChangeEvent<HTMLInputElement>) =>{
+    });
+    
+    const handleSelectAll = (event: ChangeEvent<HTMLInputElement>) => {
         const isChecked = event.target.checked;
         console.log("Select all ", isChecked);
-        if(isChecked){
+        if (isChecked) {
             setSellectAll(true);
             spacesList.map(space => {
                 dispatch({
@@ -27,53 +28,80 @@ export const Spaces = () => {
                     title: space.title
                 });
             })
-        }else{
+        } else {
             setSellectAll(false)
-            spacesList.map(space => {
                 dispatch({
                     type: 'REMOVE_ALL_SPACES',
                 })
-            })
         }
     }
-    return (
-        <div>
-            <Box sx={{position: 'sticky', top: 0, backgroundColor: 'white'}}>
-            <h2 style={{ textAlign: "center" }}>Spaces</h2>
-            <input type="checkbox" value={"Select all"} checked={selectAll} onChange={(e) => handleSelectAll(e)}/>
-            <label>Select all</label><br></br>
-            <input type="text" placeholder="Search spaces" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
 
+    useEffect(() => {
+        getAllSpaces().then((data) => {
+          setSpacesList(data);
+        });
+      }, []);
+      
+    return (
+        <Box className="tmpClass" sx={{display: 'flex',
+        flexWrap: 'wrap',}}>
+            <Box sx={{ position: 'sticky' , top: '0', backgroundColor: 'white'}}>
+                <TextField id="standard-basic" label="Search spaces" variant="standard" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
+
+                <FormControlLabel
+                    value={"Select all"}
+
+                    control={
+                        <Checkbox
+                            value={"Select all"}
+                            checked={selectAll}
+                            onChange={(e) => handleSelectAll(e)}
+                        />
+                    }
+                    label={"Select all"}
+                    labelPlacement="end"
+                />
             </Box>
-            
+
 
             {filteredSpaces.map(space => (
-                <div key={space.id}>
-                    <input type="checkbox" value={space.id} checked={cleanups.find(item=>space.id ===item.id)} onChange={(e) => {
-                        console.log("HEREEEEEEEEEEEEEEEE");
-                        console.log(e.target.value);
-                        console.log("CLEANUPS")
-                        const isChecked = e.target.checked;
-                        if (isChecked) {
-                            dispatch({
-                                type: 'SET_SPACES',
-                                id: space.id,
-                                title: space.title
-                            });
+                <Box key={space.id} sx={{ }}>
+
+                    <FormControlLabel
+                        value={space.id}
+                        sx={{}}
+                        control={
+                            <Checkbox
+                                value={space.id}
+                                checked={!!cleanups.find(item => space.id === item.id)}
+                                defaultChecked={false}
+                                onChange={(e) => {
+                                    const isChecked = e.target.checked;
+                                    if (isChecked) {
+                                        dispatch({
+                                            type: 'SET_SPACES',
+                                            id: space.id,
+                                            title: space.title
+                                        });
+                                    }
+                                    else {
+                                        setSellectAll(false);
+                                        dispatch({
+                                            type: 'REMOVE_SPACES',
+                                            id: space.id
+                                        })
+                                    }
+                                }}
+                            />
+
                         }
-                        else {
-                            setSellectAll(false);
-                            dispatch({
-                                type: 'REMOVE_SPACES',
-                                id: space.id
-                            })
-                        }
-                    }} />
-                    <label>{space.title}</label>
-                </div>
+                        label={space.title}
+                        labelPlacement="end"
+                    />
+                </Box>
             ))}
 
-        </div>
+        </Box>
     );
 }
 

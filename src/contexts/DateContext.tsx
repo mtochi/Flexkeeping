@@ -9,8 +9,6 @@ interface Dates {
 export const DateContext = createContext<Dates>({} as Dates);
 export const DateDispatchContext = createContext<React.Dispatch<any>>(() => {});
 
-
-  
 export function DatesProvider({ children }: { children: React.ReactNode }) {
     const [dates, dispatch] = useReducer(datesReducer, initialDates);
     return(

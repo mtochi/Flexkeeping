@@ -1,0 +1,6586 @@
+{
+  "1": {
+    "departure": [
+      {
+        "id_space": 100,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 193,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 8
+      },
+      {
+        "id_space": 197,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 203,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 208,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 7
+      },
+      {
+        "id_space": 210,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 7
+      },
+      {
+        "id_space": 213,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 266,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 9
+      },
+      {
+        "id_space": 60,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 62,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 94,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      }
+    ],
+    "empty": [
+      {
+        "id_space": 178,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 179,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 96,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 97,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 98,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 99,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 101,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 102,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 103,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 104,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 105,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 106,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 107,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 108,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 109,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 110,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 111,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 112,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 113,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 114,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 117,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 118,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 147,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 148,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 151,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 153,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 156,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 157,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 158,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 159,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 191,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 192,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 201,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 202,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 205,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 206,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 209,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 211,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 267,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 268,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 63,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 83,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 84,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 86,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 91,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 92,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 93,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 95,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 134,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 135,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 144,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      }
+    ],
+    "stayOver": [
+      {
+        "id_space": 164,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 165,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 166,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 167,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 168,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 169,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 170,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 171,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 172,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 173,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 174,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 175,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 176,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 177,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 180,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 181,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 182,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 183,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 184,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 185,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 186,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 187,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 9
+      },
+      {
+        "id_space": 188,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 30
+      },
+      {
+        "id_space": 189,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 190,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 115,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 7
+      },
+      {
+        "id_space": 116,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 119,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 149,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 7
+      },
+      {
+        "id_space": 150,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 152,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 10
+      },
+      {
+        "id_space": 154,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 7
+      },
+      {
+        "id_space": 160,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 161,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 8
+      },
+      {
+        "id_space": 162,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 163,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 194,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 195,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 8
+      },
+      {
+        "id_space": 196,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 198,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 199,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 200,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 204,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 207,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 212,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 214,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 7
+      },
+      {
+        "id_space": 260,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 261,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 262,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 264,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 265,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 64
+      },
+      {
+        "id_space": 269,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 270,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 271,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 272,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 59,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 61,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 65,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 66,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 67,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 70,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 71,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 72,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 73,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 75,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 76,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 77,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 78,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 79,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 80,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 81,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 82,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 7
+      },
+      {
+        "id_space": 85,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 10
+      },
+      {
+        "id_space": 87,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 7
+      },
+      {
+        "id_space": 88,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 89,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 90,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 120,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 7
+      },
+      {
+        "id_space": 121,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 7
+      },
+      {
+        "id_space": 122,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 8
+      },
+      {
+        "id_space": 123,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 124,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 10
+      },
+      {
+        "id_space": 125,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 9
+      },
+      {
+        "id_space": 126,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 127,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 7
+      },
+      {
+        "id_space": 128,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 8
+      },
+      {
+        "id_space": 129,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 7
+      },
+      {
+        "id_space": 130,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 131,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 132,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 133,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 10
+      },
+      {
+        "id_space": 136,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 137,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 138,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 139,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 8
+      },
+      {
+        "id_space": 140,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 141,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 142,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 143,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 145,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 7
+      },
+      {
+        "id_space": 146,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 7
+      }
+    ]
+  },
+  "2": {
+    "departure": [
+      {
+        "id_space": 100,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 116,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 149,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 152,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 154,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 194,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 197,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 203,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 204,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 208,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 212,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 213,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 214,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 165,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 183,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 190,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 264,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 270,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 78,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 8
+      },
+      {
+        "id_space": 90,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 125,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 139,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      }
+    ],
+    "empty": [
+      {
+        "id_space": 96,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 97,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 98,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 99,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 101,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 102,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 103,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 104,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 105,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 106,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 107,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 108,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 109,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 110,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 111,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 112,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 113,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 114,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 117,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 118,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 147,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 148,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 153,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 156,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 157,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 158,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 159,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 196,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 205,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 206,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 211,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 239,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 240,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 242,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 244,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 246,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 247,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 250,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 251,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 252,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 253,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 178,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 179,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 268,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 69,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 15
+      },
+      {
+        "id_space": 83,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 84,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 92,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 93,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 94,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 134,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 135,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      }
+    ],
+    "stayOver": [
+      {
+        "id_space": 115,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 119,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 150,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 151,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 155,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 160,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 161,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 162,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 163,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 191,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 7
+      },
+      {
+        "id_space": 192,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 193,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 195,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 198,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 199,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 200,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 201,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 202,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 207,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 209,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 210,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 164,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 166,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 167,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 168,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 7
+      },
+      {
+        "id_space": 169,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 170,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 171,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 172,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 173,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 174,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 175,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 176,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 177,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 180,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 10
+      },
+      {
+        "id_space": 181,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 182,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 184,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 185,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 186,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 187,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 8
+      },
+      {
+        "id_space": 188,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 189,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 260,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 261,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 262,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 265,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 266,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 11
+      },
+      {
+        "id_space": 267,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 269,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 271,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 272,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 70,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 15
+      },
+      {
+        "id_space": 71,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 72,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 73,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 10
+      },
+      {
+        "id_space": 75,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 76,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 77,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 79,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 80,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 81,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 82,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 85,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 86,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 87,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 88,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 89,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 91,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 95,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 120,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 121,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 11
+      },
+      {
+        "id_space": 122,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 123,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 124,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 126,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 127,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 128,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 129,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 130,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 131,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 132,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 133,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 136,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 137,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 7
+      },
+      {
+        "id_space": 138,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 140,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 141,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 142,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 143,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 144,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 145,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 146,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      }
+    ]
+  },
+  "3": {
+    "departure": [
+      {
+        "id_space": 65,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 260,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 261,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 262,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 265,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 267,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 269,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 270,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 271,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 272,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 116,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 149,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 152,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 154,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 193,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 199,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 200,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 36
+      },
+      {
+        "id_space": 207,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 70,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 71,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 72,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 73,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 75,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 76,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 77,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 79,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 87,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 8
+      },
+      {
+        "id_space": 91,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 185,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 121,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 137,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 138,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 139,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 141,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 146,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      }
+    ],
+    "empty": [
+      {
+        "id_space": 61,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 63,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 67,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 96,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 97,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 99,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 101,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 103,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 105,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 106,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 107,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 109,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 110,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 111,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 112,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 114,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 147,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 148,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 153,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 156,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 157,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 158,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 159,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 205,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 206,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 208,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 84,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 90,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 92,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 93,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 94,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 178,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 179,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 125,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 134,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 135,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      }
+    ],
+    "stayOver": [
+      {
+        "id_space": 59,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 60,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 62,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 66,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 266,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 115,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 119,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 150,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 151,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 155,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 160,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 161,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 162,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 163,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 191,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 192,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 194,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 195,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 196,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 198,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 201,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 202,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 204,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 209,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 210,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 212,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 214,
+        "id_maid": 1078,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 69,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 78,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 80,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 81,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 82,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 83,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 85,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 86,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 88,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 89,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 95,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 165,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 166,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 169,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 15
+      },
+      {
+        "id_space": 170,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 171,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 172,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 176,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 177,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 186,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 187,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 189,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 120,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 122,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 123,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 124,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 126,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 127,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 128,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 129,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 130,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 131,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 132,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 133,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 136,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 140,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 142,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 143,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 144,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 145,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      }
+    ]
+  },
+  "4": {
+    "departure": [
+      {
+        "id_space": 60,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 62,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 65,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 66,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 260,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 25
+      },
+      {
+        "id_space": 261,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 262,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 269,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 271,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 272,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 115,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 154,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 194,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 195,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 204,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 207,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 209,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 212,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 71,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 73,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 75,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 76,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 77,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 78,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 79,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 86,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 87,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 95,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 121,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 130,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 141,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 144,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 146,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      }
+    ],
+    "empty": [
+      {
+        "id_space": 63,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 67,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 265,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 267,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 268,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 270,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 96,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 97,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 99,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 101,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 103,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 105,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 106,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 107,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 109,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 110,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 111,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 112,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 114,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 116,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 147,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 148,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 149,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 152,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 153,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 156,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 157,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 158,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 159,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 199,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 200,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 205,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 206,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 70,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 84,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 90,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 91,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 92,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 93,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 94,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 178,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 7
+      },
+      {
+        "id_space": 179,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 125,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 134,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 135,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 137,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 138,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 139,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      }
+    ],
+    "stayOver": [
+      {
+        "id_space": 59,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 61,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 266,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 119,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 150,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 8
+      },
+      {
+        "id_space": 151,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 155,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 160,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 161,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 162,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 163,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 191,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 11
+      },
+      {
+        "id_space": 192,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 193,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 9
+      },
+      {
+        "id_space": 196,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 198,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 201,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 202,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 210,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 69,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 72,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 80,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 81,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 82,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 83,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 85,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 88,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 89,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 166,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 169,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 170,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 171,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 172,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 186,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 7
+      },
+      {
+        "id_space": 187,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 189,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 120,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 122,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 14
+      },
+      {
+        "id_space": 123,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 124,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 126,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 127,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 128,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 129,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 131,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 132,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 133,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 136,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 140,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 142,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 143,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 145,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      }
+    ]
+  },
+  "5": {
+    "departure": [
+      {
+        "id_space": 60,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 61,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 62,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 65,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 66,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 191,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 192,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 193,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 204,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 214,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 88,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 89,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 126,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 127,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 128,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 129,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 132,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 140,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      }
+    ],
+    "empty": [
+      {
+        "id_space": 63,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 67,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 260,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 261,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 262,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 265,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 267,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 268,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 269,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 270,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 271,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 272,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 96,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 97,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 99,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 101,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 103,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 105,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 106,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 107,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 109,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 110,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 111,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 112,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 114,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 115,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 116,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 147,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 154,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 158,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 159,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 199,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 205,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 206,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 209,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 70,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 75,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 76,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 77,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 78,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 79,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 84,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 86,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 87,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 90,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 91,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 93,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 94,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 95,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 216,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 217,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 219,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 220,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 221,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 222,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 223,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 224,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 225,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 226,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 227,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 229,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 230,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 231,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 232,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 233,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 234,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 235,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 236,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 237,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 238,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 239,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 240,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 242,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 244,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 246,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 247,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 250,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 251,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 252,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 253,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 121,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 134,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 135,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 139,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 141,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      }
+    ],
+    "stayOver": [
+      {
+        "id_space": 59,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 266,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 119,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 148,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 149,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 150,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 151,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 14
+      },
+      {
+        "id_space": 152,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 153,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 155,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 156,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 157,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 160,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 161,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 162,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 163,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 194,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 195,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 196,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 198,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 200,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 201,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 202,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 207,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 208,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 210,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 212,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 7
+      },
+      {
+        "id_space": 69,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 71,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 72,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 73,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 80,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 8
+      },
+      {
+        "id_space": 81,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 82,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 83,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 85,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 92,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 28
+      },
+      {
+        "id_space": 215,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 218,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 120,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 122,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 123,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 124,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 125,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 130,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 131,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 133,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 136,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 137,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 138,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 142,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 143,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 144,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 145,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 146,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      }
+    ]
+  },
+  "6": {
+    "departure": [
+      {
+        "id_space": 69,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 92,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 148,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 149,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 150,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 152,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 153,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 191,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 192,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 208,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 212,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 120,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 124,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 126,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 127,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 128,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 129,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 132,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 133,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 136,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 140,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 143,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 145,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      }
+    ],
+    "empty": [
+      {
+        "id_space": 60,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 61,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 62,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 63,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 65,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 66,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 67,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 70,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 75,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 76,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 77,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 78,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 79,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 84,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 86,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 87,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 88,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 89,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 90,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 91,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 94,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 95,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 217,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 219,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 220,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 221,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 222,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 223,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 224,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 225,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 226,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 227,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 229,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 230,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 231,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 232,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 233,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 234,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 235,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 236,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 237,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 238,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 260,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 261,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 262,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 265,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 267,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 268,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 269,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 270,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 271,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 272,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 96,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 97,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 99,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 101,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 103,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 105,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 106,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 107,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 110,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 111,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 114,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 116,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 147,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 154,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 158,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 159,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 193,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 199,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 205,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 206,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 209,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 214,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 239,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 240,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 242,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 244,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 246,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 247,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 250,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 251,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 252,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 253,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 134,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 135,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 139,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 141,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      }
+    ],
+    "stayOver": [
+      {
+        "id_space": 59,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 71,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 72,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 73,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 80,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 81,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 82,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 83,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 85,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 93,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 119,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 7
+      },
+      {
+        "id_space": 215,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 216,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 218,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 266,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 109,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 112,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 115,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 151,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 11
+      },
+      {
+        "id_space": 155,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 156,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 157,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 160,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 161,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 162,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 163,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 194,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 7
+      },
+      {
+        "id_space": 195,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 7
+      },
+      {
+        "id_space": 196,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 198,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 200,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 19
+      },
+      {
+        "id_space": 201,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 202,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 204,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 207,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 210,
+        "id_maid": 1077,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 121,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 10
+      },
+      {
+        "id_space": 122,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 7
+      },
+      {
+        "id_space": 123,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 125,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 130,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 33
+      },
+      {
+        "id_space": 131,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 137,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 138,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 142,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 144,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 146,
+        "id_maid": 12254,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      }
+    ]
+  },
+  "7": {
+    "departure": [
+      {
+        "id_space": 100,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 109,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 112,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 148,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 149,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 150,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 152,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 153,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 194,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 197,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 203,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 207,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 208,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 213,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 74,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 92,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 120,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 124,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 128,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 133,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 136,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 143,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 145,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 218,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 9
+      }
+    ],
+    "empty": [
+      {
+        "id_space": 96,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 97,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 98,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 99,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 101,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 102,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 103,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 104,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 105,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 106,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 107,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 108,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 110,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 111,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 113,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 114,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 116,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 117,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 118,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 147,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 154,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 158,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 159,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 11
+      },
+      {
+        "id_space": 191,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 192,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 193,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 199,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 205,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 206,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 209,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 211,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 212,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 239,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 240,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 242,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 244,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 246,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 247,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 250,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 251,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 252,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 253,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 60,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 61,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 62,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 63,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 65,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 66,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 67,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 70,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 75,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 76,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 77,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 78,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 79,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 84,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 86,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 88,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 89,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 90,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 91,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 94,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 95,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 126,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 127,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 134,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 135,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 6
+      },
+      {
+        "id_space": 139,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 140,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 141,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 217,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 219,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 220,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 221,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 222,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 223,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 224,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 225,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 226,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 227,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 229,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 230,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 231,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 232,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 233,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 234,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 235,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 236,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 237,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 238,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 260,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 261,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 262,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 265,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 267,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 268,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 269,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 270,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      },
+      {
+        "id_space": 271,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 272,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 5
+      }
+    ],
+    "stayOver": [
+      {
+        "id_space": 115,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 119,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 151,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 155,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 156,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 1
+      },
+      {
+        "id_space": 157,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 1
+      },
+      {
+        "id_space": 160,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 161,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 162,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 163,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 195,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 196,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 198,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 200,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 201,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 202,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 204,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 210,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 214,
+        "id_maid": 1063,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 59,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 69,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 71,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 72,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 73,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 9
+      },
+      {
+        "id_space": 80,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 81,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 82,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 83,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 85,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 87,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 93,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 121,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 122,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 123,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 125,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 129,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 130,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 131,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 132,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 137,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 138,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 9
+      },
+      {
+        "id_space": 142,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 144,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      },
+      {
+        "id_space": 146,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 2
+      },
+      {
+        "id_space": 215,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 4
+      },
+      {
+        "id_space": 216,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 0
+      },
+      {
+        "id_space": 266,
+        "id_maid": 12473,
+        "cleaning_credits": 1,
+        "cleaning_time": 3
+      }
+    ]
+  }
+}
