@@ -17,7 +17,7 @@ export const Cleanups = () => {
   const dispatch = useDatesDispatch();
   const dates = useDates();
   const isMobile = useMediaQuery('(max-width:420px)');
-
+  const isTablet = useMediaQuery('(max-width:820px)');
   return (
     //These rules can be deleted
     <Box className="mainContainer" sx={{ paddingTop: '3rem', width: '100%', height: isMobile ? '100%':'100vh'}}>  
@@ -29,7 +29,7 @@ export const Cleanups = () => {
         
         <Box
   display="flex"
-  justifyContent="right"
+  justifyContent={isMobile || isTablet ? 'center':"right"}
 >
 
 
@@ -49,7 +49,7 @@ export const Cleanups = () => {
         <Grid item md={6} xs={12}>
         <Box
   display="flex"
-  justifyContent="left"
+  justifyContent={isMobile || isTablet ? 'center':"left"}
 >
           <DatePicker
           label="Date To" 
