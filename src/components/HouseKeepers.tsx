@@ -1,4 +1,4 @@
-import { Checkbox, FormControlLabel, TextField } from '@mui/material';
+import { Checkbox, FormControlLabel, Paper, TextField } from '@mui/material';
 import Box from '@mui/material/Box';
 import { ChangeEvent, useEffect, useState } from 'react';
 import { useHouseKeepers, useHouseKeepersDispatch } from '../contexts/HouseKeepersContext';
@@ -46,7 +46,14 @@ let maids = getAllMaids().then((data) => {return data;});
       }, []);
 
     return (
-        <Box className="tmpClass" >
+    //     <Paper sx={{ height: 300, overflow: 'auto', width: 300 }}>
+    //   <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', p: 2 }}>
+
+    //     {/* <Box sx={{ p: 2, height: '100%' }}> */}
+    //     {/* </Box> */}
+      
+    
+    <Box>
             <Box sx={{ position: 'sticky', top: '0' }}>
                 <TextField id="standard-basic" label="Search housekeepers" variant="standard" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
                 <FormControlLabel
@@ -102,7 +109,9 @@ let maids = getAllMaids().then((data) => {return data;});
                 </Box>
             ))}
 
-        </Box>
+</Box>
+        // </Box>
+        // </Paper>
     );
 }
 

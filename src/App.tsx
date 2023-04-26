@@ -19,7 +19,6 @@ function App() {
         <SpacesProvider>
         <DatesProvider>
           <Cleanups/>
-          <ScrollableListContainer/>
           </DatesProvider>
         </SpacesProvider>
       </HouseKeepersProvider>

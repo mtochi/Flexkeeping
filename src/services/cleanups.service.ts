@@ -1,6 +1,6 @@
 
 import cleanups from '../data/cleanups.json';
-import spaces from '../data/spaces.json';
+import spacesF from '../data/spaces.json';
 import maids from '../data/maids.json';
 import { Dayjs } from 'dayjs';
 import { getAllMaids } from './data.service';
@@ -40,6 +40,8 @@ export const getTotalNumberOfCredits = (houseKeepers: any[], dates: Dates) => {
   // let maidsList: any[];
   // getAllMaids().then((data) => {
   //   maidsList=data
+
+
   // });
   
 
@@ -95,7 +97,7 @@ export const getTotalNumberOfCredits = (houseKeepers: any[], dates: Dates) => {
 
 export const getTotalTimePerSpace = (spaces: any[], dates: Dates) => {
   const cleanupsListTotal : CleanupsListForSpace = cleanups;
-    const spacesList = spaces;
+    const spacesList = spacesF;
 
     const spacesIds: (number | undefined)[] = [];
 

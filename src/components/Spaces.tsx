@@ -43,9 +43,8 @@ export const Spaces = () => {
       }, []);
       
     return (
-        <Box className="tmpClass" sx={{display: 'flex',
-        flexWrap: 'wrap',}}>
-            <Box sx={{ position: 'sticky' , top: '0', backgroundColor: 'white'}}>
+        <Box>
+            <Box sx={{ position: 'sticky' , top: '0', backgroundColor: 'white', zIndex: '100'}}>
                 <TextField id="standard-basic" label="Search spaces" variant="standard" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
 
                 <FormControlLabel

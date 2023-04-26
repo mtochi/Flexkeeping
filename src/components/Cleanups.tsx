@@ -9,6 +9,8 @@ import { BarChartComponent } from './BarChart';
 import { DoughnutChart } from './DoughnutChart';
 import { HouseKeepers } from './HouseKeepers';
 import { Spaces } from './Spaces';
+import { ScrollableListContainer } from './ScrollableListContainer';
+// import { HouseKeepers2 } from './HouseKeepeers2';
 
 
 export const Cleanups = () => {
@@ -69,12 +71,18 @@ export const Cleanups = () => {
             <Grid container rowSpacing={3} columnSpacing={0}>
                <Grid item xs={12} md={2}>
           <Box sx={{ height: '200px', overflowY: 'scroll'}}>
+            <ScrollableListContainer>
             <HouseKeepers />
+            </ScrollableListContainer>
+            
           </Box>
         </Grid>
         <Grid item xs={12} md={2}>
                 <Box sx={{ height: '200px', overflowY: 'scroll' }}>
-                  <Spaces />
+                <ScrollableListContainer>
+                <Spaces />            
+                </ScrollableListContainer>
+                  
                 </Box>
               </Grid>
               <Grid item xs={12} md={4}>
@@ -90,7 +98,9 @@ export const Cleanups = () => {
             <Grid container rowSpacing={3} columnSpacing={3} sx={{paddingTop: '3rem'}}>
                       <Grid item xs={12} md={2}>
           <Box sx={{ height: '500px', overflowY: 'scroll' }}>
+          <ScrollableListContainer>
             <HouseKeepers />
+            </ScrollableListContainer>
           </Box>
         </Grid>
             
@@ -107,7 +117,9 @@ export const Cleanups = () => {
             </Grid>
             <Grid item xs={12} md={2}>
               <Box sx={{ height: '500px', overflowY: 'scroll' }}>
+              <ScrollableListContainer>
                 <Spaces />
+                </ScrollableListContainer>
               </Box>
             </Grid>
             </Grid>)

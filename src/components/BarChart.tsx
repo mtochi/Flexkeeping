@@ -1,3 +1,4 @@
+import { Paper } from "@mui/material";
 import {
   BarChart,
   Bar,
@@ -19,7 +20,9 @@ export const BarChartComponent = () => {
     const dates = useDates();
 
     const data = getTotalTimePerSpace(cleanups, dates);
-  return (<div className="tmpClass barChartClass">
+  return (
+    <Paper className="tmpClass barChartClass" sx={{ height: 500, overflow: 'auto'}}>
+
 
 
     <BarChart
@@ -45,6 +48,5 @@ export const BarChartComponent = () => {
       <Bar dataKey="departure" stackId="a" fill="#82ca9d" />
       <Bar dataKey="empty" stackId="a" fill="#82ca23" />
     </BarChart>
-    </div>
-  );
+</Paper>  );
 }

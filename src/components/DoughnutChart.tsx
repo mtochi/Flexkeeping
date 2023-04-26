@@ -1,3 +1,4 @@
+import { Paper } from "@mui/material";
 import { PieChart, Pie, Cell, Legend, Tooltip } from "recharts";
 import { useDates } from "../contexts/DateContext";
 import { useHouseKeepers } from "../contexts/HouseKeepersContext";
@@ -11,7 +12,7 @@ export const DoughnutChart = () => {
 
     const maidCreditsList = getTotalNumberOfCredits(houseKeepers, dates);
   return (
-    <div className="tmpClass">
+    <Paper className="tmpClass" sx={{ height: 500, overflow: 'auto'}}>
 
     <PieChart width={400} height={450}>
 
@@ -36,6 +37,7 @@ export const DoughnutChart = () => {
       </Pie>
       <Tooltip />
     </PieChart>
-    </div>
+    
+    </Paper>
   );
 }
