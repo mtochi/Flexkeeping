@@ -11,15 +11,21 @@ export const DoughnutChart = () => {
     const dates = useDates();
 
     const maidCreditsList = getTotalNumberOfCredits(houseKeepers, dates);
+
+    // useEffect(() => {
+    //   getTotalNumberOfCredits(houseKeepers, dates)().then((data) => {
+    //     setMaidsList(data);
+    //   });
+    // }, []);
   return (
     <Paper className="tmpClass" sx={{ height: 500, overflow: 'auto'}}>
 
     <PieChart width={400} height={450}>
 
-    <Legend wrapperStyle={{ lineHeight: "40px" }} verticalAlign="top" />
-    {/* <text x={500 / 2} y={20} fill="black" textAnchor="middle" dominantBaseline="central">
-            <tspan fontSize="24">Credit Count Per Housekeeper</tspan>
-        </text> */}
+    <Legend wrapperStyle={{ lineHeight: "40px" }} verticalAlign="bottom" />
+    <text x={180} y={30} fill="black" textAnchor="middle" dominantBaseline="central">
+            <tspan fontSize="20">Credit Count Per Housekeeper</tspan>
+        </text>
       <Pie
         data={maidCreditsList}
         cx={200}

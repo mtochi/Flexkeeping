@@ -26,22 +26,24 @@ export const BarChartComponent = () => {
 
 
     <BarChart
-      // <text>Total Time per Space Statuses</text>
+      
       width={400}
       height={450}
       data={data}
       margin={{
-        // top: 5,
-        // right: 30,
-        // left: 20,
-        // bottom: 5
+        top: 60,
+        bottom: 5
       }}
     >
+
+    <text x={210} y={30} fill="black" textAnchor="middle" dominantBaseline="central">
+            <tspan fontSize="20">Total Time per Space Statuses</tspan>
+        </text>
       <CartesianGrid strokeDasharray="3 3" />
       <XAxis dataKey="title" />
       <YAxis />
       <Tooltip />
-      <Legend verticalAlign="top" wrapperStyle={{ lineHeight: "40px" }} height={50} align="center" />
+      <Legend verticalAlign="bottom" wrapperStyle={{ lineHeight: "40px" }} height={50} align="center" />
       <ReferenceLine y={0} stroke="#000" />
       <Brush dataKey="title" height={30} stroke="#8884d8" />
       <Bar dataKey="stayOver" stackId="a" fill="#8884d8" />

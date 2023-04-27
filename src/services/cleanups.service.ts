@@ -33,10 +33,12 @@ interface Dates {
   endDate: Dayjs;
 }
 
+type Maid = { id: string; name: string };
+
 
 export const getTotalNumberOfCredits = (houseKeepers: any[], dates: Dates) => {
   const cleanupsListTotal : CleanupsListForSpace = cleanups;
-
+  //let maidsList = await getAllMaids();
   // let maidsList: any[];
   // getAllMaids().then((data) => {
   //   maidsList=data
@@ -80,13 +82,13 @@ export const getTotalNumberOfCredits = (houseKeepers: any[], dates: Dates) => {
   const maidCreditsList = Object.entries(maidCreditsTotal)
   .map(([id, credits]) => ({
     id,
-    name: maidsList.find(maid => maid.id.toString() === id)?.name || '',
+    name: maidsList.find((maid) => maid.id.toString() === id)?.name || '',
     credits,
   }));
 
   const maidsCreditsList2 = Object.entries(maidCreditsTotal).map(([id, credits]) => {
     return{
-      name: maidsList.find(maid => maid.id.toString() === id)?.name || '',
+      name: maidsList.find((maid) => maid.id.toString() === id)?.name || '',
       credits: credits
     }
     
