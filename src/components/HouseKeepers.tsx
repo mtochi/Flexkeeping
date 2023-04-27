@@ -11,7 +11,7 @@ let maids = getAllMaids().then((data) => {return data;});
   console.log(maids)
     const houseKeepers = useHouseKeepers();
     const dispatch = useHouseKeepersDispatch();
-    const [selectAll, setSelectAll] = useState(Boolean);
+    const [selectAll, setSelectAll] = useState(false);
     const [searchTerm, setSearchTerm] = useState("");
 
     const handleSelectAll = (event: ChangeEvent<HTMLInputElement>) => {
@@ -40,10 +40,25 @@ let maids = getAllMaids().then((data) => {return data;});
         return maid.name.toLowerCase().includes(searchTerm.toLowerCase());
     });
     useEffect(() => {
+        setSelectAll(true);
         getAllMaids().then((data) => {
           setMaidsList(data);
         });
       }, []);
+
+      useEffect(() => {
+        if (selectAll) {
+          maidsList.forEach((maid) => {
+            dispatch({
+              type: 'SET_HOUSEKEEPERS',
+              id: maid.id,
+              name: maid.name
+            });
+          });
+        } else {
+          dispatch({ type: 'REMOVE_HOUSEKEEPERS' });
+        }
+      }, [selectAll]);
 
     return (
     //     <Paper sx={{ height: 300, overflow: 'auto', width: 300 }}>
@@ -54,7 +69,7 @@ let maids = getAllMaids().then((data) => {return data;});
       
     
     <Box>
-            <Box sx={{ position: 'sticky', top: '0' }}>
+            <Box sx={{ position: 'sticky', top: '0', backgroundColor: 'white', zIndex: '100' }}>
                 <TextField id="standard-basic" label="Search housekeepers" variant="standard" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
                 <FormControlLabel
                         value={"Select all"}
@@ -81,8 +96,7 @@ let maids = getAllMaids().then((data) => {return data;});
                         control={
                             <Checkbox
                                 value={maid.id}
-                                checked={!!houseKeepers.find(item => maid.id === item.id)}
-                                defaultChecked={false}
+                                checked={selectAll || !!houseKeepers.find(item => maid.id === item.id)}
                                 onChange={(e) => {
                                     const isChecked = e.target.checked;
                                     if (isChecked) {

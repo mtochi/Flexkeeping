@@ -8,7 +8,7 @@ import { getAllSpaces } from '../services/data.service';
 
 export const Spaces = () => {
     const [spacesList, setSpacesList] = useState<{id: number, title: string}[]>([]);
-    const [selectAll, setSellectAll] = useState(Boolean);
+    const [selectAll, setSelectAll] = useState(false);
     const [searchTerm, setSearchTerm] = useState("");
     const cleanups = useSpaces();
     const dispatch = useSpacesDispatch();
@@ -20,7 +20,7 @@ export const Spaces = () => {
         const isChecked = event.target.checked;
         console.log("Select all ", isChecked);
         if (isChecked) {
-            setSellectAll(true);
+            setSelectAll(true);
             spacesList.map(space => {
                 dispatch({
                     type: 'SET_SPACES',
@@ -29,7 +29,7 @@ export const Spaces = () => {
                 });
             })
         } else {
-            setSellectAll(false)
+            setSelectAll(false)
                 dispatch({
                     type: 'REMOVE_ALL_SPACES',
                 })
@@ -37,10 +37,25 @@ export const Spaces = () => {
     }
 
     useEffect(() => {
+        setSelectAll(true);
         getAllSpaces().then((data) => {
           setSpacesList(data);
         });
       }, []);
+
+      useEffect(() => {
+        if (selectAll) {
+            spacesList.map(space => {
+                dispatch({
+                    type: 'SET_SPACES',
+                    id: space.id,
+                    title: space.title
+                });
+            })
+        } else {
+          dispatch({ type: 'REMOVE_SPACES' });
+        }
+      }, [selectAll]);
       
     return (
         <Box>
@@ -72,7 +87,7 @@ export const Spaces = () => {
                         control={
                             <Checkbox
                                 value={space.id}
-                                checked={!!cleanups.find(item => space.id === item.id)}
+                                checked={selectAll || !!cleanups.find(item => space.id === item.id)}
                                 defaultChecked={false}
                                 onChange={(e) => {
                                     const isChecked = e.target.checked;
@@ -84,7 +99,7 @@ export const Spaces = () => {
                                         });
                                     }
                                     else {
-                                        setSellectAll(false);
+                                        setSelectAll(false);
                                         dispatch({
                                             type: 'REMOVE_SPACES',
                                             id: space.id
