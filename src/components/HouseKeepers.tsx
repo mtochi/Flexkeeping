@@ -1,131 +1,66 @@
-import { Checkbox, FormControlLabel, Paper, TextField } from '@mui/material';
-import Box from '@mui/material/Box';
-import { ChangeEvent, useEffect, useState } from 'react';
-import { useHouseKeepers, useHouseKeepersDispatch } from '../contexts/HouseKeepersContext';
+
+
+import { Box } from '@mui/material';
+import { CheckboxList } from './CheckboxList';
 import { getAllMaids } from '../services/data.service';
-import './styles.css';
+import { useEffect, useState } from 'react';
+import { useHouseKeepers, useHouseKeepersDispatch } from '../contexts/HouseKeepersContext';
 
+type Item = { id: string; name: string } | { id: number; title: string };
 export const HouseKeepers = () => {
-    const [maidsList, setMaidsList] = useState<{id: number, name: string}[]>([]);
-let maids = getAllMaids().then((data) => {return data;});
-  console.log(maids)
-    const houseKeepers = useHouseKeepers();
-    const dispatch = useHouseKeepersDispatch();
-    const [selectAll, setSelectAll] = useState(false);
-    const [searchTerm, setSearchTerm] = useState("");
 
-    const handleSelectAll = (event: ChangeEvent<HTMLInputElement>) => {
-        const isChecked = event.target.checked;
-        console.log("Select all ", isChecked);
-        if (isChecked) {
-            setSelectAll(true);
-            maidsList.map(maid => {
-                dispatch({
-                    type: 'SET_HOUSEKEEPERS',
-                    id: maid.id,
-                    name: maid.name
-                });
-            })
-        } else {
-            setSelectAll(false)
+    //HOUSEKEEPERS
+    const [maidsList, setMaidsList] = useState<Item[]>([]);
+    const [isLoading, setIsLoading] = useState(true);
+    const dispatch = useHouseKeepersDispatch();
+    const houseKeepers = useHouseKeepers();
+
+    const dispatchForSettingItem = (item: Item) => {
+        if ('name' in item) {
             dispatch({
-                type: 'REMOVE_ALL_HOUSEKEEPERS',
-            })
+                type: 'SET_HOUSEKEEPERS',
+                id: item.id,
+                name: item.name
+            });
         }
     }
+    const dispatchForRemovingAllItems = () => {
+        dispatch({
+            type: 'REMOVE_ALL_HOUSEKEEPERS',
+        })
+    }
 
-    const filteredHouseKeepers = maidsList.filter(maid => {
-        console.log(searchTerm)
-        console.log(maid.name.includes(searchTerm))
-        return maid.name.toLowerCase().includes(searchTerm.toLowerCase());
-    });
+    const dispatchForRemovingItem = (item: Item) => {
+        dispatch({
+            type: 'REMOVE_HOUSEKEEPERS',
+            id: item.id
+        })
+    }
+
     useEffect(() => {
-        setSelectAll(true);
-        getAllMaids().then((data) => {
-          setMaidsList(data);
-        });
+        const fetchData = async () => {
+            try {
+            const data = await getAllMaids();
+            setMaidsList(data);
+            setIsLoading(false);
+            } catch (error) {
+            console.error('Error fetching maids:', error);
+            }}
+            fetchData();
       }, []);
-
-      useEffect(() => {
-        if (selectAll) {
-          maidsList.forEach((maid) => {
-            dispatch({
-              type: 'SET_HOUSEKEEPERS',
-              id: maid.id,
-              name: maid.name
-            });
-          });
-        } else {
-          dispatch({ type: 'REMOVE_HOUSEKEEPERS' });
+      if (isLoading) {
+        return <p>Loading...</p>;
         }
-      }, [selectAll]);
-
-    return (
-    //     <Paper sx={{ height: 300, overflow: 'auto', width: 300 }}>
-    //   <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', p: 2 }}>
-
-    //     {/* <Box sx={{ p: 2, height: '100%' }}> */}
-    //     {/* </Box> */}
-      
-    
+  return (
     <Box>
-            <Box sx={{ position: 'sticky', top: '0', backgroundColor: 'white', zIndex: '100' }}>
-                <TextField id="standard-basic" label="Search housekeepers" variant="standard" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
-                <FormControlLabel
-                        value={"Select all"}
-                        control={
-                        <Checkbox 
-                        value={"Select all"} 
-                        checked={selectAll} 
-                        onChange={(e) => handleSelectAll(e)} 
-                        />
-                    }
-                    label={"Select all"}
-                        labelPlacement="end"
-                        />
-                        
-            </Box>
-
-            {filteredHouseKeepers.map(maid => (
-                <Box key={maid.id} sx={{alignItems: 'flex-start' }}>
-                    {/* style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}> */}
-
-                    <FormControlLabel
-                        value={maid.id}
-                        sx={{}}
-                        control={
-                            <Checkbox
-                                value={maid.id}
-                                checked={selectAll || !!houseKeepers.find(item => maid.id === item.id)}
-                                onChange={(e) => {
-                                    const isChecked = e.target.checked;
-                                    if (isChecked) {
-                                        dispatch({
-                                            type: 'SET_HOUSEKEEPERS',
-                                            id: maid.id,
-                                            name: maid.name
-                                        });
-                                    }
-                                    else {
-                                        setSelectAll(false);
-                                        dispatch({
-                                            type: 'REMOVE_HOUSEKEEPERS',
-                                            id: maid.id
-                                        })
-                                    }
-                                }}
-                            />
-
-                        }
-                        label={maid.name}
-                        labelPlacement="end"
-                    />
-                </Box>
-            ))}
-
-</Box>
-        // </Box>
-        // </Paper>
-    );
+        <CheckboxList 
+        listOfItems={maidsList} 
+        isLoading={isLoading}
+        dispatchForSettingItem={dispatchForSettingItem} 
+        dispatchForRemovingAllItems={dispatchForRemovingAllItems} 
+        dispatchForRemovingItem = {dispatchForRemovingItem}
+        stateItems={houseKeepers}/>
+    </Box>
+  );
 }
 

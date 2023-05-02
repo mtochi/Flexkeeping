@@ -7,11 +7,9 @@ import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
 import { DatesProvider } from './contexts/DateContext';
 import { ScrollableListContainer } from './components/ScrollableListContainer';
 import { getAllMaids } from './services/data.service';
+import { CheckboxList } from './components/CheckboxList';
 
 function App() {
-  console.log("getAllMaids");
-  let maids = getAllMaids().then((data) => console.log(data));
-  console.log(maids)
   return (
     <div className="App">
           <LocalizationProvider dateAdapter={AdapterDayjs}>
@@ -19,6 +17,7 @@ function App() {
         <SpacesProvider>
         <DatesProvider>
           <Cleanups/>
+         
           </DatesProvider>
         </SpacesProvider>
       </HouseKeepersProvider>

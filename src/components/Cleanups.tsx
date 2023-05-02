@@ -7,10 +7,9 @@ import { useDatesDispatch } from '../contexts/DateContext';
 import { useDates } from '../contexts/DateContext';
 import { BarChartComponent } from './BarChart';
 import { DoughnutChart } from './DoughnutChart';
+import { ScrollableListContainer } from './ScrollableListContainer';
 import { HouseKeepers } from './HouseKeepers';
 import { Spaces } from './Spaces';
-import { ScrollableListContainer } from './ScrollableListContainer';
-// import { HouseKeepers2 } from './HouseKeepeers2';
 
 
 export const Cleanups = () => {
@@ -24,7 +23,7 @@ export const Cleanups = () => {
 
       <Grid container rowSpacing={4} columnSpacing={3} sx={{ alignItems: 'flex-start' }}>
 
-        
+      
         <Grid item md={6} xs={12}>
         
         <Box

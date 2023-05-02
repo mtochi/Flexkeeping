@@ -24,7 +24,6 @@ export function useSpacesDispatch() {
 function spacesReducer(spaces: any, action: { type: string; id: any; title: any; }) {
     switch (action.type) {
       case 'SET_SPACES': {
-        console.log("cleanups: ", spaces);
         const existingIndex = spaces.findIndex((h: { id: any; }) => h.id === action.id);
         if (existingIndex !== -1) {
           // Space exists in the array => don't add it
