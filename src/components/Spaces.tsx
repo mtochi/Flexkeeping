@@ -5,9 +5,8 @@ import { CheckboxList } from './CheckboxList';
 import { getAllSpaces } from '../services/data.service';
 import { useEffect, useState } from 'react';
 import { useSpacesDispatch, useSpaces } from '../contexts/SpacesContext';
+import {Item} from '../types';
 
-
-type Item = { id: string; name: string } | { id: number; title: string };
 
 export const Spaces = () => {
     const [spacesList, setSpacesList] = useState<Item[]>([]);

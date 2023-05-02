@@ -5,11 +5,10 @@ import { CheckboxList } from './CheckboxList';
 import { getAllMaids } from '../services/data.service';
 import { useEffect, useState } from 'react';
 import { useHouseKeepers, useHouseKeepersDispatch } from '../contexts/HouseKeepersContext';
+import {Item} from '../types';
 
-type Item = { id: string; name: string } | { id: number; title: string };
 export const HouseKeepers = () => {
 
-    //HOUSEKEEPERS
     const [maidsList, setMaidsList] = useState<Item[]>([]);
     const [isLoading, setIsLoading] = useState(true);
     const dispatch = useHouseKeepersDispatch();
