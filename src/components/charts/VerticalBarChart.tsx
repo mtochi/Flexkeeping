@@ -10,23 +10,20 @@ import {
   Tooltip,
   Legend
 } from "recharts";
-import { useDates } from "../contexts/DateContext";
-import { useSpaces } from "../contexts/SpacesContext";
-import { getTotalTimePerSpace } from "../services/cleanups.service";
 
+type BarChartProps = {
+  data: {}[],
+  title: string
+  xAxisValueDataKey: string
+  barDataKeysList: string[]
+}
 
-export const BarChartComponent = () => {
-    const cleanups = useSpaces();
-    const dates = useDates();
+const listOfFillings = ["#82ca23", "#8884d8", "#82ca9d"]
 
-    const data = getTotalTimePerSpace(cleanups, dates);
+export const VerticalBarChart: React.FC<BarChartProps> = ({data, title, xAxisValueDataKey, barDataKeysList}) => {
   return (
     <Paper className="tmpClass barChartClass" sx={{ height: 500, overflow: 'auto'}}>
-
-
-
     <BarChart
-      
       width={400}
       height={450}
       data={data}
@@ -37,18 +34,19 @@ export const BarChartComponent = () => {
     >
 
     <text x={210} y={30} fill="black" textAnchor="middle" dominantBaseline="central">
-            <tspan fontSize="20">Total Time per Space Statuses</tspan>
+            <tspan fontSize="20">{title}</tspan>
         </text>
       <CartesianGrid strokeDasharray="3 3" />
-      <XAxis dataKey="title" />
+      <XAxis dataKey={xAxisValueDataKey} />
       <YAxis />
       <Tooltip />
       <Legend verticalAlign="bottom" wrapperStyle={{ lineHeight: "40px" }} height={50} align="center" />
       <ReferenceLine y={0} stroke="#000" />
-      <Brush dataKey="title" height={30} stroke="#8884d8" />
-      <Bar dataKey="stayOver" stackId="a" fill="#8884d8" />
-      <Bar dataKey="departure" stackId="a" fill="#82ca9d" />
-      <Bar dataKey="empty" stackId="a" fill="#82ca23" />
+      <Brush dataKey={xAxisValueDataKey} height={30} stroke="#8884d8" />
+      {barDataKeysList.map((item, index) => (
+        <Bar key={item} dataKey={item} stackId="a" fill={listOfFillings[index]} />
+      ))
+      }
     </BarChart>
 </Paper>  );
 }

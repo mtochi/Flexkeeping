@@ -4,21 +4,17 @@ import Grid from '@mui/material/Grid';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import dayjs from 'dayjs';
 import { useDatesDispatch } from '../contexts/DateContext';
-import { useDates } from '../contexts/DateContext';
-import { BarChartComponent } from './BarChart';
-import { DoughnutChart } from './DoughnutChart';
 import { ScrollableListContainer } from './ScrollableListContainer';
 import { HouseKeepers } from './HouseKeepers';
 import { Spaces } from './Spaces';
-
+import { SpacesBarChart } from './SpacesBarChart';
+import { HouseKepeersDoughtnutChart } from './HouseKeepersDoughnutChart';
 
 export const Cleanups = () => {
   const dispatch = useDatesDispatch();
-  const dates = useDates();
   const isMobile = useMediaQuery('(max-width:420px)');
   const isTablet = useMediaQuery('(max-width:820px)');
   return (
-    //These rules can be deleted
     <Box className="mainContainer" sx={{ paddingTop: '3rem', width: '100%', height: isMobile ? '100%':'100vh'}}>  
 
       <Grid container rowSpacing={4} columnSpacing={3} sx={{ alignItems: 'flex-start' }}>
@@ -85,10 +81,10 @@ export const Cleanups = () => {
                 </Box>
               </Grid>
               <Grid item xs={12} md={4}>
-                <DoughnutChart />
+              <HouseKepeersDoughtnutChart/>
               </Grid>
               <Grid item xs={12} md={4}>
-              <BarChartComponent/>
+              <SpacesBarChart/>
               </Grid>
              
             </Grid>
@@ -105,13 +101,13 @@ export const Cleanups = () => {
             
             <Grid item xs={12} md={4}>
               <Box sx={{height: '500px',}}>
-              <DoughnutChart />
+              <HouseKepeersDoughtnutChart/>
               </Box>
               
             </Grid>
             <Grid item xs={12} md={4}>
             <Box sx={{height: '500px',}}>
-            <BarChartComponent/>
+            <SpacesBarChart/>
             </Box>
             </Grid>
             <Grid item xs={12} md={2}>

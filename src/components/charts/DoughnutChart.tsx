@@ -1,22 +1,19 @@
 import { Paper } from "@mui/material";
+import { useEffect } from "react";
 import { PieChart, Pie, Cell, Legend, Tooltip } from "recharts";
-import { useDates } from "../contexts/DateContext";
-import { useHouseKeepers } from "../contexts/HouseKeepersContext";
-import { getTotalNumberOfCredits } from "../services/cleanups.service";
 
 const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042", "#FF8095"];
+type DoughnutChartProps = {
+    data: {}[],
+    title: string
+    mainDataKey: string
+    isLoading: boolean;
 
-export const DoughnutChart = () => {
-    const houseKeepers = useHouseKeepers();
-    const dates = useDates();
-
-    const maidCreditsList = getTotalNumberOfCredits(houseKeepers, dates);
-
-    // useEffect(() => {
-    //   getTotalNumberOfCredits(houseKeepers, dates)().then((data) => {
-    //     setMaidsList(data);
-    //   });
-    // }, []);
+  }
+export const DoughnutChart: React.FC<DoughnutChartProps> = ({data, title, mainDataKey, isLoading}) => {
+  if (isLoading) {
+    return <div>Loading</div>;
+  }
   return (
     <Paper className="tmpClass" sx={{ height: 500, overflow: 'auto'}}>
 
@@ -24,20 +21,20 @@ export const DoughnutChart = () => {
 
     <Legend wrapperStyle={{ lineHeight: "40px" }} verticalAlign="bottom" />
     <text x={180} y={30} fill="black" textAnchor="middle" dominantBaseline="central">
-            <tspan fontSize="20">Credit Count Per Housekeeper</tspan>
+            <tspan fontSize="20">{title}</tspan>
         </text>
       <Pie
-        data={maidCreditsList}
+        data={data}
         cx={200}
         cy={200}
         innerRadius={70}
         outerRadius={120}
         fill="#8884d8"
         paddingAngle={5}
-        dataKey="credits"
+        dataKey={mainDataKey}
         label
       >
-        {maidCreditsList.map((entry, index) => (
+        {data.map((_, index) => (
           <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
         ))}
       </Pie>

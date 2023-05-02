@@ -1,11 +1,9 @@
-
-
 import { Box } from '@mui/material';
-import { CheckboxList } from './CheckboxList';
+import { CheckboxList } from './CleanupsCheckboxList';
 import { getAllMaids } from '../services/data.service';
 import { useEffect, useState } from 'react';
 import { useHouseKeepers, useHouseKeepersDispatch } from '../contexts/HouseKeepersContext';
-import {Item} from '../types';
+import { Item } from '../types';
 
 export const HouseKeepers = () => {
 
@@ -39,27 +37,26 @@ export const HouseKeepers = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-            const data = await getAllMaids();
-            setMaidsList(data);
-            setIsLoading(false);
+                const data = await getAllMaids();
+                setMaidsList(data);
             } catch (error) {
-            console.error('Error fetching maids:', error);
-            }}
-            fetchData();
-      }, []);
-      if (isLoading) {
-        return <p>Loading...</p>;
+                console.error('Error fetching maids:', error);
+            }finally {
+                setIsLoading(false);
+              }
         }
-  return (
-    <Box>
-        <CheckboxList 
-        listOfItems={maidsList} 
-        isLoading={isLoading}
-        dispatchForSettingItem={dispatchForSettingItem} 
-        dispatchForRemovingAllItems={dispatchForRemovingAllItems} 
-        dispatchForRemovingItem = {dispatchForRemovingItem}
-        stateItems={houseKeepers}/>
-    </Box>
-  );
+        fetchData();
+    }, []);
+    return (
+        <Box>
+            <CheckboxList
+                listOfItems={maidsList}
+                isLoading={isLoading}
+                dispatchForSettingItem={dispatchForSettingItem}
+                dispatchForRemovingAllItems={dispatchForRemovingAllItems}
+                dispatchForRemovingItem={dispatchForRemovingItem}
+                stateItems={houseKeepers} />
+        </Box>
+    );
 }
 
