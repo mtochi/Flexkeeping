@@ -23,16 +23,16 @@ export const HouseKepeersDoughtnutChart = () => {
         }
         finally {
             setIsLoading(false);
-          }
+        }
     };
-    
+
     useEffect(() => {
-        
+
         fetchData()
     }, [houseKeepers, dates])
 
     // useEffect(() => {
-        
+
     //     fetchData()
     // }, [])
     console.log("HouseKeepersChart data");

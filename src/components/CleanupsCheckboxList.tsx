@@ -12,12 +12,12 @@ type CheckboxListProps = {
     stateItems: Item[];
 }
 
-export const CheckboxList: React.FC<CheckboxListProps> = ({ 
-    listOfItems, 
-    dispatchForSettingItem, 
-    dispatchForRemovingAllItems, 
-    dispatchForRemovingItem, 
-    stateItems, 
+export const CleanupsCheckboxList: React.FC<CheckboxListProps> = ({
+    listOfItems,
+    dispatchForSettingItem,
+    dispatchForRemovingAllItems,
+    dispatchForRemovingItem,
+    stateItems,
     isLoading }) => {
     const [selectAll, setSelectAll] = useState(true);
     const [searchTerm, setSearchTerm] = useState("");
@@ -25,7 +25,7 @@ export const CheckboxList: React.FC<CheckboxListProps> = ({
         const isChecked = event.target.checked;
         if (isChecked) {
             setSelectAll(true);
-            listOfItems.map((item: any) => {
+            listOfItems.forEach((item: any) => {
                 dispatchForSettingItem(item);
             })
         } else {

@@ -1,131 +1,88 @@
-
-import cleanups from '../data/cleanups.json';
-import spacesF from '../data/spaces.json';
-import maids from '../data/maids.json';
-import { Dayjs } from 'dayjs';
-import { getAllCleanups, getAllMaids } from './data.service';
-import { CreditCountPerHouseKeeperData } from '../types';
-
-
-interface CleanupsListForSpace {
-    [key: string]: {
-      departure: {
-        id_space: number;
-        id_maid: number;
-        cleaning_credits: number;
-        cleaning_time: number;
-      }[];
-      empty: {
-        id_space: number;
-        id_maid: number;
-        cleaning_credits: number;
-        cleaning_time: number;
-      }[];
-      stayOver: {
-        id_space: number;
-        id_maid: number;
-        cleaning_credits: number;
-        cleaning_time: number;
-      }[];
-    };
-};
-interface Dates {
-  startDate: Dayjs;
-  endDate: Dayjs;
-}
-
-type Maid = { id: string; name: string };
+import { getAllCleanups, getAllMaids, getAllSpaces } from "./data.service";
+import {
+  CreditCountPerHouseKeeperData,
+  Dates,
+  Maid,
+  TotalTimePerSpaceData,
+  CleanupsListForSpace,
+} from "../types";
 
 
-export const getTotalNumberOfCredits = async (houseKeepers: any[], dates: Dates): Promise<CreditCountPerHouseKeeperData[]> => {
-  const cleanupsListTotal : CleanupsListForSpace = await getAllCleanups();
+
+export const getTotalNumberOfCredits = async (
+  houseKeepers: any[],
+  dates: Dates
+): Promise<CreditCountPerHouseKeeperData[]> => {
+  const cleanupsListTotal: CleanupsListForSpace = await getAllCleanups();
   let maidsList = await getAllMaids();
-  // let maidsList: any[];
-  // getAllMaids().then((data) => {
-  //   maidsList=data
 
+  const houseKeeperIds = houseKeepers.map((houseKeeper) => houseKeeper.id);
 
-  // });
-  
-
-  //const maidsList = maids;
-  const houseKeeperIds: (number | undefined)[] = [];
-
-  houseKeepers.forEach((houseKeeper) => {
-      houseKeeperIds.push(houseKeeper.id);
-  });
-  const maidCreditsTotal : {[key: number]: number} = {};  
-  const startDate = dates.startDate;
-  const endDate = dates.endDate;
+  const maidCreditsTotal: { [key: number]: number } = {};
+  const { startDate, endDate } = dates;
 
   for (const [day] of Object.entries(cleanupsListTotal)) {
-    if(parseInt(day) >= startDate.date() && parseInt(day) <= endDate.date()){
+    if (parseInt(day) >= startDate.date() && parseInt(day) <= endDate.date()) {
       const cleaningsByType = cleanupsListTotal[day];
       const allCleanups = Object.values(cleaningsByType).flat();
-      allCleanups.forEach(cleanup => {
+      allCleanups.forEach((cleanup) => {
         const maidId = cleanup.id_maid;
         if (houseKeeperIds.includes(maidId)) {
-          maidCreditsTotal[maidId] = (maidCreditsTotal[maidId] || 0) + cleanup.cleaning_credits;
+          maidCreditsTotal[maidId] =
+            (maidCreditsTotal[maidId] || 0) + cleanup.cleaning_credits;
         }
       });
     }
   }
 
-  const maidsCreditsList: CreditCountPerHouseKeeperData[] = Object.entries(maidCreditsTotal).map(([id, credits]) => {
-    return{
-      name: maidsList.find((maid: Maid) => maid.id.toString() === id)?.name || '',
-      credits: credits
-    }
+  const maidsCreditsList: CreditCountPerHouseKeeperData[] = Object.entries(
+    maidCreditsTotal
+  ).map(([id, credits]) => {
+    return {
+      name:
+        maidsList.find((maid: Maid) => maid.id.toString() === id)?.name || "",
+      credits: credits,
+    };
   });
 
   return maidsCreditsList;
-}
+};
 
-export const getTotalTimePerSpace = async (spaces: any[], dates: Dates) => {
-  const cleanupsListTotal : CleanupsListForSpace = cleanups;
-    const spacesList = spacesF;
-    const spacesIds: (number | undefined)[] = [];
-    spaces.forEach((space) => {
-        spacesIds.push(space.id);
-    });
+export const getTotalTimePerSpace = async (
+  spaces: any[],
+  dates: Dates
+): Promise<TotalTimePerSpaceData[]> => {
+  const cleanupsListTotal: CleanupsListForSpace = await getAllCleanups();
+  const spacesList = await getAllSpaces();
+  const spaceIds = spaces.map((space) => space.id);
+  const spacesTimeTotal: { [key: string]: { [key: string]: number } } = {};
+  const { startDate, endDate } = dates;
 
-    const spacesTimeTotal : {[key: string]: {[key:string]: number}} = {};
-    const startDate = dates.startDate;
-    const endDate = dates.endDate;
-
-    for (const [day] of Object.entries(cleanupsListTotal)) {
-      if(parseInt(day) >= startDate.date() && parseInt(day) <= endDate.date()){
-        for (const [type, actual_cleanings] of Object.entries(cleanupsListTotal[day])){
-            actual_cleanings.forEach(cleanup => {
-                const spaceId = cleanup.id_space;
-                if(spacesIds.includes(spaceId) ){
-                    spacesTimeTotal[spaceId] = (spacesTimeTotal[spaceId] || {});
-                    spacesTimeTotal[spaceId][type] = (spacesTimeTotal[spaceId][type] || 0) + (cleanup.cleaning_time*60);
-                }
-                
-            });
-            
-        }
-      }
+  Object.entries(cleanupsListTotal).forEach(([day, cleaningsByType]) => {
+    if (parseInt(day) >= startDate.date() && parseInt(day) <= endDate.date()) {
+      Object.entries(cleaningsByType).forEach(([type, actual_cleanings]) => {
+        actual_cleanings.forEach((cleanup) => {
+          const spaceId = cleanup.id_space;
+          if (spaceIds.includes(spaceId)) {
+            spacesTimeTotal[spaceId] = spacesTimeTotal[spaceId] || {};
+            spacesTimeTotal[spaceId][type] =
+              (spacesTimeTotal[spaceId][type] || 0) +
+              cleanup.cleaning_time * 60;
+          }
+        });
+      });
     }
-    console.log("spacesIds: ", spacesIds)
-    console.log("spacesTimeTotal ", spacesTimeTotal)
-
-    interface TotalTime {
-      stayOver: number;
-      empty: number;
-      departure: number;
-    }
-    
-    const spacesTimeTotalList2 = Object.entries(spacesTimeTotal).map(([id, totalTime]) => {
+  });
+  const spacesTimeTotalList = Object.entries(spacesTimeTotal).map(
+    ([id, totalTime]) => {
       return {
-        title: spacesList.find(space => space.id.toString() === id)?.title || '',
-        stayOver: totalTime.stayOver ? totalTime.stayOver: 0,
+        title:
+          spacesList.find((space) => space.id.toString() === id)?.title || "",
+        stayOver: totalTime.hasOwnProperty("stayOver") ? totalTime.stayOver : 0,
         empty: totalTime.empty ? totalTime.empty : 0,
-        departure: totalTime.departure? totalTime.departure: 0,
-      }
-    });
-    return spacesTimeTotalList2;
-
-
-}
+        departure: totalTime.departure ? totalTime.departure : 0,
+      };
+    }
+  );
+  return spacesTimeTotalList;
+};

@@ -1,7 +1,7 @@
 
 
 import { Box } from '@mui/material';
-import { CheckboxList } from './CleanupsCheckboxList';
+import { CleanupsCheckboxList } from './CleanupsCheckboxList';
 import { getAllSpaces } from '../services/data.service';
 import { useEffect, useState } from 'react';
 import { useSpacesDispatch, useSpaces } from '../contexts/SpacesContext';
@@ -43,7 +43,7 @@ export const Spaces = () => {
                 setSpacesList(data);
             } catch (error) {
                 console.error('Error fetching spaces:', error);
-            }finally{
+            } finally {
                 setIsLoading(false);
             }
         }
@@ -51,7 +51,7 @@ export const Spaces = () => {
     }, []);
     return (
         <Box>
-            <CheckboxList
+            <CleanupsCheckboxList
                 listOfItems={spacesList}
                 isLoading={isLoading}
                 dispatchForSettingItem={dispatchForSettingItem}

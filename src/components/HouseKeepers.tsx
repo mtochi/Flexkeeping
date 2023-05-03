@@ -1,5 +1,5 @@
 import { Box } from '@mui/material';
-import { CheckboxList } from './CleanupsCheckboxList';
+import { CleanupsCheckboxList } from './CleanupsCheckboxList';
 import { getAllMaids } from '../services/data.service';
 import { useEffect, useState } from 'react';
 import { useHouseKeepers, useHouseKeepersDispatch } from '../contexts/HouseKeepersContext';
@@ -41,15 +41,15 @@ export const HouseKeepers = () => {
                 setMaidsList(data);
             } catch (error) {
                 console.error('Error fetching maids:', error);
-            }finally {
+            } finally {
                 setIsLoading(false);
-              }
+            }
         }
         fetchData();
     }, []);
     return (
         <Box>
-            <CheckboxList
+            <CleanupsCheckboxList
                 listOfItems={maidsList}
                 isLoading={isLoading}
                 dispatchForSettingItem={dispatchForSettingItem}

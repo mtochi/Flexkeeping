@@ -19,7 +19,7 @@ export const SpacesBarChart = () => {
         setData(result);
       } catch (error) {
         console.error("Failed to fetch data: ", error);
-      }finally {
+      } finally {
         setIsLoading(false);
       }
     };
