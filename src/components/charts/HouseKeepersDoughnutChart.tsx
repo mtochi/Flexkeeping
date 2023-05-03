@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
-import { useDates } from "../contexts/DateContext";
-import { useHouseKeepers } from "../contexts/HouseKeepersContext";
-import { getTotalNumberOfCredits } from "../services/cleanups.service";
-import { DoughnutChart } from "./charts/DoughnutChart";
-import { CreditCountPerHouseKeeperData } from "../types";
+import { useDates } from "../../contexts/DateContext";
+import { useHouseKeepers } from "../../contexts/HouseKeepersContext";
+import { getTotalNumberOfCredits } from "../../services/cleanups.service";
+import { CreditCountPerHouseKeeperData } from "../../types";
+import { DoughnutChart } from "./DoughnutChart";
+
 
 export const HouseKepeersDoughtnutChart = () => {
     const houseKeepers = useHouseKeepers();
@@ -14,7 +15,6 @@ export const HouseKepeersDoughtnutChart = () => {
 
         try {
             const result = await getTotalNumberOfCredits(houseKeepers, dates);
-            console.log("result", result)
             setData(result);
 
 
@@ -27,24 +27,9 @@ export const HouseKepeersDoughtnutChart = () => {
     };
 
     useEffect(() => {
-
         fetchData()
     }, [houseKeepers, dates])
 
-    // useEffect(() => {
-
-    //     fetchData()
-    // }, [])
-    console.log("HouseKeepersChart data");
-    console.log(data)
-    console.log(isLoading)
-
-    // if (isLoading) {
-    //     return <div>Loading</div>;
-    // }
-    // if (data === null) {
-    //     return <div>Loading</div>;
-    //   }
     return (
         <DoughnutChart
             data={data}

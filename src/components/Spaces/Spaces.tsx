@@ -1,11 +1,12 @@
 
 
-import { Box } from '@mui/material';
-import { CleanupsCheckboxList } from './CleanupsCheckboxList';
-import { getAllSpaces } from '../services/data.service';
 import { useEffect, useState } from 'react';
-import { useSpacesDispatch, useSpaces } from '../contexts/SpacesContext';
-import { Item } from '../types';
+import { Box } from '@mui/material';
+import { useSpacesDispatch, useSpaces } from '../../contexts/SpacesContext';
+import { getAllSpaces } from '../../services/data.service';
+import { Item } from '../../types';
+import { CleanupsCheckboxList } from '../Containers/CleanupsCheckboxList';
+
 
 
 export const Spaces = () => {

@@ -1,11 +1,10 @@
 
 import { useEffect, useState } from "react";
-import { useDates } from "../contexts/DateContext";
-import { useSpaces } from "../contexts/SpacesContext";
-import { getTotalTimePerSpace } from "../services/cleanups.service";
-import { VerticalBarChart } from "./charts/VerticalBarChart";
-import { TotalTimePerSpaceData } from "../types";
-
+import { useDates } from "../../contexts/DateContext";
+import { useSpaces } from "../../contexts/SpacesContext";
+import { getTotalTimePerSpace } from "../../services/cleanups.service";
+import { TotalTimePerSpaceData } from "../../types";
+import { VerticalBarChart } from "./VerticalBarChart";
 
 export const SpacesBarChart = () => {
   const cleanups = useSpaces();

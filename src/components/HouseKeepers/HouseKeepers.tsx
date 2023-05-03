@@ -1,9 +1,10 @@
-import { Box } from '@mui/material';
-import { CleanupsCheckboxList } from './CleanupsCheckboxList';
-import { getAllMaids } from '../services/data.service';
 import { useEffect, useState } from 'react';
-import { useHouseKeepers, useHouseKeepersDispatch } from '../contexts/HouseKeepersContext';
-import { Item } from '../types';
+import { Box } from '@mui/material';
+import { useHouseKeepers, useHouseKeepersDispatch } from '../../contexts/HouseKeepersContext';
+import { getAllMaids } from '../../services/data.service';
+import { Item } from '../../types';
+import { CleanupsCheckboxList } from '../Containers/CleanupsCheckboxList';
+
 
 export const HouseKeepers = () => {
 

@@ -4,11 +4,11 @@ import Grid from '@mui/material/Grid';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import dayjs from 'dayjs';
 import { useDatesDispatch } from '../contexts/DateContext';
-import { ScrollableListContainer } from './ScrollableListContainer';
-import { HouseKeepers } from './HouseKeepers';
-import { Spaces } from './Spaces';
-import { SpacesBarChart } from './SpacesBarChart';
-import { HouseKepeersDoughtnutChart } from './HouseKeepersDoughnutChart';
+import { ScrollableListContainer } from './Containers/ScrollableListContainer';
+import { HouseKeepers } from './HouseKeepers/HouseKeepers';
+import { Spaces } from './Spaces/Spaces';
+import { SpacesBarChart } from './Charts/SpacesBarChart';
+import { HouseKepeersDoughtnutChart } from './Charts/HouseKeepersDoughnutChart';
 
 export const Cleanups = () => {
   const dispatch = useDatesDispatch();

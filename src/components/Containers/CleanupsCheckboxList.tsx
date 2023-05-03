@@ -1,7 +1,6 @@
-import { Box, Checkbox, FormControlLabel, TextField } from "@mui/material"
 import { ChangeEvent, useEffect, useState } from "react";
-import { Item } from "../types";
-
+import { Box, Checkbox, FormControlLabel, TextField } from "@mui/material"
+import { Item } from "../../types";
 
 type CheckboxListProps = {
     listOfItems: Item[];
