@@ -7,7 +7,7 @@ import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
 import { DatesProvider } from './contexts/DateContext';
 import { ScrollableListContainer } from './components/ScrollableListContainer';
 import { getAllMaids } from './services/data.service';
-import { CheckboxList } from './components/CheckboxList';
+import { CheckboxList } from './components/CleanupsCheckboxList';
 
 function App() {
   return (

@@ -10,10 +10,16 @@ type CheckboxListProps = {
     dispatchForRemovingAllItems: () => void;
     isLoading: boolean;
     stateItems: Item[];
-  }
+}
 
-export const CheckboxList: React.FC<CheckboxListProps> = ({listOfItems, dispatchForSettingItem, dispatchForRemovingAllItems, dispatchForRemovingItem, stateItems, isLoading}) => {
-    const [selectAll, setSelectAll] = useState(false);
+export const CheckboxList: React.FC<CheckboxListProps> = ({ 
+    listOfItems, 
+    dispatchForSettingItem, 
+    dispatchForRemovingAllItems, 
+    dispatchForRemovingItem, 
+    stateItems, 
+    isLoading }) => {
+    const [selectAll, setSelectAll] = useState(true);
     const [searchTerm, setSearchTerm] = useState("");
     const handleSelectAll = (event: ChangeEvent<HTMLInputElement>) => {
         const isChecked = event.target.checked;
@@ -31,47 +37,45 @@ export const CheckboxList: React.FC<CheckboxListProps> = ({listOfItems, dispatch
     const filteredItems = listOfItems.filter(item => {
         if ('name' in item) {
             return item.name.toLowerCase().includes(searchTerm.toLowerCase());
- 
-        }else{ //title in item
+
+        } else { //title in item
             return item.title.toString().includes(searchTerm.toLowerCase());
         }
     });
 
     useEffect(() => {
-        setSelectAll(true);
-    }, [])
+        // Check if all housekeepers are selected
+        if (listOfItems.length === stateItems.length) {
+            setSelectAll(true);
+        } else {
+            setSelectAll(false);
+        }
+    }, [listOfItems, stateItems]);
 
-    useEffect(() => {
-        if (selectAll) {
-          listOfItems.forEach((item) => {
-            dispatchForSettingItem(item);
-          });
-        }
-      }, [selectAll]);
-      if (isLoading) {
+    if (isLoading) {
         return <p>Loading...</p>;
-        }
-    return(
-<Box>
-        <Box sx={{ position: 'sticky', top: '0', backgroundColor: 'white', zIndex: '100' }}>
+    }
+    return (
+        <Box>
+            <Box sx={{ position: 'sticky', top: '0', backgroundColor: 'white', zIndex: '100' }}>
                 <TextField id="standard-basic" label="Search housekeepers" variant="standard" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
                 <FormControlLabel
-                        value={"Select all"}
-                        control={
-                        <Checkbox 
-                        value={"Select all"} 
-                        checked={selectAll} 
-                        onChange={(e) => handleSelectAll(e)} 
+                    value={"Select all"}
+                    control={
+                        <Checkbox
+                            value={"Select all"}
+                            checked={selectAll}
+                            onChange={(e) => handleSelectAll(e)}
                         />
                     }
                     label={"Select all"}
-                        labelPlacement="end"
-                        />
-                        
-        </Box>
+                    labelPlacement="end"
+                />
 
-        {filteredItems.map(item => (
-                <Box key={item.id} sx={{alignItems: 'flex-start' }}>
+            </Box>
+
+            {filteredItems.map((item, index) => (
+                <Box key={index} sx={{ alignItems: 'flex-start' }}>
                     <FormControlLabel
                         value={item.id}
                         sx={{}}
@@ -84,7 +88,7 @@ export const CheckboxList: React.FC<CheckboxListProps> = ({listOfItems, dispatch
                                     if (isChecked) {
                                         dispatchForSettingItem(item)
                                     }
-                            
+
                                     else {
                                         setSelectAll(false);
                                         dispatchForRemovingItem(item)
@@ -93,11 +97,11 @@ export const CheckboxList: React.FC<CheckboxListProps> = ({listOfItems, dispatch
                             />
 
                         }
-                        label={'name' in item? item.name: item.title}
+                        label={'name' in item ? item.name : item.title}
                         labelPlacement="end"
                     />
                 </Box>
             ))}
-</Box>
+        </Box>
     )
 }

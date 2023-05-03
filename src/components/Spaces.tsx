@@ -1,11 +1,11 @@
 
 
 import { Box } from '@mui/material';
-import { CheckboxList } from './CheckboxList';
+import { CheckboxList } from './CleanupsCheckboxList';
 import { getAllSpaces } from '../services/data.service';
 import { useEffect, useState } from 'react';
 import { useSpacesDispatch, useSpaces } from '../contexts/SpacesContext';
-import {Item} from '../types';
+import { Item } from '../types';
 
 
 export const Spaces = () => {
@@ -39,27 +39,26 @@ export const Spaces = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-            const data = await getAllSpaces();
-            setSpacesList(data);
-            setIsLoading(false);
+                const data = await getAllSpaces();
+                setSpacesList(data);
             } catch (error) {
-            console.error('Error fetching spaces:', error);
-            }}
-            fetchData();
-      }, []);
-      if (isLoading) {
-        return <p>Loading...</p>;
+                console.error('Error fetching spaces:', error);
+            }finally{
+                setIsLoading(false);
+            }
         }
-  return (
-    <Box>
-        <CheckboxList 
-        listOfItems={spacesList} 
-        isLoading={isLoading}
-        dispatchForSettingItem={dispatchForSettingItem} 
-        dispatchForRemovingAllItems={dispatchForRemovingAllItems} 
-        dispatchForRemovingItem = {dispatchForRemovingItem}
-        stateItems={spaces}/>
-    </Box>
-  );
+        fetchData();
+    }, []);
+    return (
+        <Box>
+            <CheckboxList
+                listOfItems={spacesList}
+                isLoading={isLoading}
+                dispatchForSettingItem={dispatchForSettingItem}
+                dispatchForRemovingAllItems={dispatchForRemovingAllItems}
+                dispatchForRemovingItem={dispatchForRemovingItem}
+                stateItems={spaces} />
+        </Box>
+    );
 }
 

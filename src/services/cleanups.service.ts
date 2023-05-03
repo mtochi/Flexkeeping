@@ -3,7 +3,8 @@ import cleanups from '../data/cleanups.json';
 import spacesF from '../data/spaces.json';
 import maids from '../data/maids.json';
 import { Dayjs } from 'dayjs';
-import { getAllMaids } from './data.service';
+import { getAllCleanups, getAllMaids } from './data.service';
+import { CreditCountPerHouseKeeperData } from '../types';
 
 
 interface CleanupsListForSpace {
@@ -36,9 +37,9 @@ interface Dates {
 type Maid = { id: string; name: string };
 
 
-export const getTotalNumberOfCredits = (houseKeepers: any[], dates: Dates) => {
-  const cleanupsListTotal : CleanupsListForSpace = cleanups;
-  //let maidsList = await getAllMaids();
+export const getTotalNumberOfCredits = async (houseKeepers: any[], dates: Dates): Promise<CreditCountPerHouseKeeperData[]> => {
+  const cleanupsListTotal : CleanupsListForSpace = await getAllCleanups();
+  let maidsList = await getAllMaids();
   // let maidsList: any[];
   // getAllMaids().then((data) => {
   //   maidsList=data
@@ -47,7 +48,7 @@ export const getTotalNumberOfCredits = (houseKeepers: any[], dates: Dates) => {
   // });
   
 
-  const maidsList = maids;
+  //const maidsList = maids;
   const houseKeeperIds: (number | undefined)[] = [];
 
   houseKeepers.forEach((houseKeeper) => {
@@ -70,9 +71,9 @@ export const getTotalNumberOfCredits = (houseKeepers: any[], dates: Dates) => {
     }
   }
 
-  const maidsCreditsList = Object.entries(maidCreditsTotal).map(([id, credits]) => {
+  const maidsCreditsList: CreditCountPerHouseKeeperData[] = Object.entries(maidCreditsTotal).map(([id, credits]) => {
     return{
-      name: maidsList.find((maid) => maid.id.toString() === id)?.name || '',
+      name: maidsList.find((maid: Maid) => maid.id.toString() === id)?.name || '',
       credits: credits
     }
   });
@@ -80,7 +81,7 @@ export const getTotalNumberOfCredits = (houseKeepers: any[], dates: Dates) => {
   return maidsCreditsList;
 }
 
-export const getTotalTimePerSpace = (spaces: any[], dates: Dates) => {
+export const getTotalTimePerSpace = async (spaces: any[], dates: Dates) => {
   const cleanupsListTotal : CleanupsListForSpace = cleanups;
     const spacesList = spacesF;
     const spacesIds: (number | undefined)[] = [];
