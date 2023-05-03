@@ -16,9 +16,7 @@ export const HouseKepeersDoughtnutChart = () => {
             const result = await getTotalNumberOfCredits(houseKeepers, dates);
             console.log("result", result)
             setData(result);
-            await new Promise((resolve) => setTimeout(resolve, 1000));
 
-            setIsLoading(false);
 
         } catch (error) {
             console.error("Failed to fetch data: ", error);
@@ -33,10 +31,10 @@ export const HouseKepeersDoughtnutChart = () => {
         fetchData()
     }, [houseKeepers, dates])
 
-    useEffect(() => {
+    // useEffect(() => {
         
-        fetchData()
-    }, [])
+    //     fetchData()
+    // }, [])
     console.log("HouseKeepersChart data");
     console.log(data)
     console.log(isLoading)

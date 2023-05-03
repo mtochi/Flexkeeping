@@ -1,9 +1,28 @@
-import { createContext, useReducer, useContext } from 'react';
+import { createContext, useReducer, useContext, useEffect } from 'react';
+import { getAllSpaces } from '../services/data.service';
 export const SpacesContext = createContext<any[]>([]);
 export const SpacesDispatchContext = createContext<React.Dispatch<any>>(() => {});
 
 export function SpacesProvider({ children }: { children: React.ReactNode }) {
     const [spaces, dispatch] = useReducer(spacesReducer, initialSpaces);
+    useEffect(() => {
+      const fetchData = async () => {
+        try {
+            const result = await getAllSpaces();
+            result.forEach((item: any) => {
+              dispatch({
+                type: 'SET_SPACES',
+                id: item.id,
+                title: item.title
+            });
+          });
+        } catch (error) {
+            console.error("Failed to fetch data: ", error);
+        }
+        
+    };
+    fetchData()
+    }, []);
     return(
         <SpacesContext.Provider value={spaces}>
             <SpacesDispatchContext.Provider value={dispatch}>

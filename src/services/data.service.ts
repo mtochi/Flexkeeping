@@ -11,12 +11,24 @@ export const getAllCleanups = () => {
 }
 
 const getAllData = (path: RequestInfo | URL) => {
+
     return fetch(path)
     .then(response => {
-        return response.json();
-    }).then(data => {
-        return data;
-    }).catch((e:Error) => {
-        console.log(e.message);
+      if (!response.ok) {
+        throw new Error('Network response was not OK');
+      }
+      return response.json();
     })
+    .catch((error: Error) => {
+      console.error('Error fetching data:', error);
+      throw error;
+    });
+    // return fetch(path)
+    // .then(response => {
+    //     return response.json();
+    // }).then(data => {
+    //     return data;
+    // }).catch((e:Error) => {
+    //     console.log(e.message);
+    // })
 }

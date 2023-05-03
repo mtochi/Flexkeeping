@@ -1,10 +1,36 @@
-import { createContext, useReducer, useContext } from 'react';
+import { createContext, useReducer, useContext, useEffect } from 'react';
+import { getTotalNumberOfCredits } from '../services/cleanups.service';
+import { getAllMaids } from '../services/data.service';
 
 export const HouseKeepersContext = createContext<any[]>([]);
 export const HouseKeepersDispatchContext = createContext<React.Dispatch<any>>(() => {});
 
 export function HouseKeepersProvider({ children }: { children: React.ReactNode }) {
-    const [houseKeepers, dispatch] = useReducer(houseKeepersReducer, initialHouseKeepers);
+
+  
+  let initialHouseKeepers: any[] = [
+
+  ];
+  const [houseKeepers, dispatch] = useReducer(houseKeepersReducer, initialHouseKeepers);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+          const result = await getAllMaids();
+          result.forEach((item: any) => {
+            dispatch({
+              type: 'SET_HOUSEKEEPERS',
+              id: item.id,
+              name: item.name
+          });
+        });
+      } catch (error) {
+          console.error("Failed to fetch data: ", error);
+      }
+      
+  };
+  fetchData()
+  }, []);
     return(
         <HouseKeepersContext.Provider value={houseKeepers}>
             <HouseKeepersDispatchContext.Provider value={dispatch}>
@@ -56,5 +82,3 @@ function houseKeepersReducer(houseKeepers: any, action: { type: string; id: any;
     }
   }
 
-const initialHouseKeepers: any[] = [
-  ];

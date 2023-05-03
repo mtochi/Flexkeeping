@@ -44,7 +44,7 @@ export const VerticalBarChart: React.FC<BarChartProps> = ({data, title, xAxisVal
       <ReferenceLine y={0} stroke="#000" />
       <Brush dataKey={xAxisValueDataKey} height={30} stroke="#8884d8" />
       {barDataKeysList.map((item, index) => (
-        <Bar key={item} dataKey={item} stackId="a" fill={listOfFillings[index]} />
+        <Bar key={index} dataKey={item} stackId="a" fill={listOfFillings[index]} />
       ))
       }
     </BarChart>

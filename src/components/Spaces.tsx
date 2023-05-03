@@ -41,9 +41,10 @@ export const Spaces = () => {
             try {
                 const data = await getAllSpaces();
                 setSpacesList(data);
-                setIsLoading(false);
             } catch (error) {
                 console.error('Error fetching spaces:', error);
+            }finally{
+                setIsLoading(false);
             }
         }
         fetchData();

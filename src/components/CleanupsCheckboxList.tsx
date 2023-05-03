@@ -19,7 +19,7 @@ export const CheckboxList: React.FC<CheckboxListProps> = ({
     dispatchForRemovingItem, 
     stateItems, 
     isLoading }) => {
-    const [selectAll, setSelectAll] = useState(false);
+    const [selectAll, setSelectAll] = useState(true);
     const [searchTerm, setSearchTerm] = useState("");
     const handleSelectAll = (event: ChangeEvent<HTMLInputElement>) => {
         const isChecked = event.target.checked;
@@ -44,16 +44,14 @@ export const CheckboxList: React.FC<CheckboxListProps> = ({
     });
 
     useEffect(() => {
-        setSelectAll(true);
-    }, [])
-
-    useEffect(() => {
-        if (selectAll) {
-            listOfItems.forEach((item) => {
-                dispatchForSettingItem(item);
-            });
+        // Check if all housekeepers are selected
+        if (listOfItems.length === stateItems.length) {
+            setSelectAll(true);
+        } else {
+            setSelectAll(false);
         }
-    }, [selectAll]);
+    }, [listOfItems, stateItems]);
+
     if (isLoading) {
         return <p>Loading...</p>;
     }
@@ -76,8 +74,8 @@ export const CheckboxList: React.FC<CheckboxListProps> = ({
 
             </Box>
 
-            {filteredItems.map(item => (
-                <Box key={item.id} sx={{ alignItems: 'flex-start' }}>
+            {filteredItems.map((item, index) => (
+                <Box key={index} sx={{ alignItems: 'flex-start' }}>
                     <FormControlLabel
                         value={item.id}
                         sx={{}}
