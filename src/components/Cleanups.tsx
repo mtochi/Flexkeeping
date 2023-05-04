@@ -7,8 +7,8 @@ import { useDatesDispatch } from '../contexts/DateContext';
 import { ScrollableListContainer } from './Containers/ScrollableListContainer';
 import { HouseKeepers } from './HouseKeepers/HouseKeepers';
 import { Spaces } from './Spaces/Spaces';
-import { SpacesBarChart } from './Charts/SpacesBarChart';
-import { HouseKepeersDoughtnutChart } from './Charts/HouseKeepersDoughnutChart';
+import { SpacesBarChart } from './charts/SpacesBarChart';
+import { HouseKepeersDoughtnutChart } from './charts/HouseKeepersDoughnutChart';
 
 export const Cleanups = () => {
   const dispatch = useDatesDispatch();
