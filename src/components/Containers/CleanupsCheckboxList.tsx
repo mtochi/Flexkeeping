@@ -1,4 +1,4 @@
-import { ChangeEvent, useEffect, useState } from "react";
+import { ChangeEvent, useMemo, useState } from "react";
 import { Box, Checkbox, FormControlLabel, TextField } from "@mui/material"
 import { Item } from "../../types";
 
@@ -42,8 +42,8 @@ export const CleanupsCheckboxList: React.FC<CheckboxListProps> = ({
         }
     });
 
-    useEffect(() => {
-        // Check if all housekeepers are selected
+    useMemo(() => {
+        // Check if all items are selected
         if (listOfItems.length === stateItems.length) {
             setSelectAll(true);
         } else {

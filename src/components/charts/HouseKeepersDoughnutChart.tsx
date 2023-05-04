@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useMemo, useState } from "react";
 import { useDates } from "../../contexts/DateContext";
 import { useHouseKeepers } from "../../contexts/HouseKeepersContext";
 import { getTotalNumberOfCredits } from "../../services/cleanups.service";
@@ -26,7 +26,7 @@ export const HouseKepeersDoughtnutChart = () => {
         }
     };
 
-    useEffect(() => {
+    useMemo(() => {
         fetchData()
     }, [houseKeepers, dates])
 

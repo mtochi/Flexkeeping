@@ -1,5 +1,5 @@
 
-import { useEffect, useState } from "react";
+import { useMemo, useState } from "react";
 import { useDates } from "../../contexts/DateContext";
 import { useSpaces } from "../../contexts/SpacesContext";
 import { getTotalTimePerSpace } from "../../services/cleanups.service";
@@ -11,7 +11,8 @@ export const SpacesBarChart = () => {
   const dates = useDates();
   const [data, setData] = useState<TotalTimePerSpaceData[]>([]);
   const [isLoading, setIsLoading] = useState(true);
-  useEffect(() => {
+  
+  useMemo(() => {
     const fetchData = async () => {
       try {
         const result = await getTotalTimePerSpace(cleanups, dates);
